@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ccdc3db387e625101fd74336cebb3583" label="ChatGPT Prompt" max_length="40" name="x_648117_chatgpt_base" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Prompt" max_length="4000" name="prompt" type="string"/>
+        <element label="Response" max_length="20000" name="response" read_only="true" type="string"/>
+        <element choice="1" default="draft" label="State" mandatory="true" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="10" value="draft"/>
+                <element inactive_on_update="false" label="Ready for Processing" sequence="20" value="ready"/>
+                <element inactive_on_update="false" label="Processing" sequence="30" value="processing"/>
+                <element inactive_on_update="false" label="Complete" sequence="40" value="complete"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="50" value="cancelled"/>
+                <element inactive_on_update="false" label="Error" sequence="60" value="error"/>
+            </choice>
+        </element>
+        <element label="Submitter" mandatory="true" max_length="32" name="submitter" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="submitter"/>
+        </index>
+    </element>
+</database>
