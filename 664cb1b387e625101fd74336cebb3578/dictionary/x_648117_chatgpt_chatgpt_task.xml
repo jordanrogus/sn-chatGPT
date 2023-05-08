@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52179ab387aa25101fd74336cebb355d" extends="task" label="ChatGPT Task" max_length="40" name="x_648117_chatgpt_chatgpt_task" type="collection">
+        <element label="Prompt" max_length="32" name="prompt" reference="x_648117_chatgpt_base" reference_qual="stateNOT INcomplete,cancelled^EQ" reference_qual_condition="stateNOT INcomplete,cancelled^EQ" type="reference"/>
+    </element>
+</database>
