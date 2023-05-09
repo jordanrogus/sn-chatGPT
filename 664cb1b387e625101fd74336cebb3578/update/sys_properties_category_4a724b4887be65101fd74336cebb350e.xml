@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>ChatGPT API Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:08:03</sys_created_on>
+        <sys_id>4a724b4887be65101fd74336cebb350e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ChatGPT API Properties</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_properties_category_4a724b4887be65101fd74336cebb350e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:10:13</sys_updated_on>
+        <title><![CDATA[<p>Properties related to ChatGPT APIs</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a724b4887be65101fd74336cebb350e"/>
+</record_update>
