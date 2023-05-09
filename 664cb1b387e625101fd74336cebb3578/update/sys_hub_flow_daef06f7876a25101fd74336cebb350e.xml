@@ -10,13 +10,13 @@
         <copied_from_name/>
         <description/>
         <internal_name>chatgpt__create_completion</internal_name>
-        <label_cache>[{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__dont_treat_as_error__","label":"7 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__action_status__","label":"7 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.table_name","label":"7 - Create Record➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.record","label":"7 - Create Record➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.table_name","label":"6 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.record","label":"6 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__dont_treat_as_error__","label":"2 - ChatGPT - Create Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c3abb38f-0301-48b3-a553-6b0cfa19bc3d"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__action_status__","label":"2 - ChatGPT - Create Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"01034cba-e18a-48ac-89b0-d4781667dfd9"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record","label":"1 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.table_name","label":"1 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body","label":"2 - ChatGPT - Create Completion➛Response Body","reference_display":"Response Body","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7ce32aa7-ec39-42d8-b104-5044f0d2023d"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.record","label":"4 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.table_name","label":"4 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record.prompt","label":"1 - Update Record➛ChatGPT Prompt Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_648117_chatgpt_base","column_name":"prompt"},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code","label":"2 - ChatGPT - Create Completion➛Status Code","reference_display":"Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c484374c-fa11-4574-9d37-28584f9e44dc"}}]</label_cache>
+        <label_cache>[{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.content","label":"2 - ChatGPT - Create Chat Completion➛Content","reference_display":"Content","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9ae0857f-a1b9-45bb-87d8-dce3fbb8fec9"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.table_name","label":"7 - Update Record➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.record","label":"7 - Update Record➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fc641241-0e19-4797-91d3-ca11b6ddcc7a.item","label":"6 - For Each➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.__dont_treat_as_error__","label":"5 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.__action_status__","label":"5 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.Count","label":"5 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.Table","label":"5 - Look Up Records➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.Records","label":"5 - Look Up Records➛ChatGPT Task Records","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__dont_treat_as_error__","label":"10 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__action_status__","label":"10 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.table_name","label":"10 - Create Record➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.record","label":"10 - Create Record➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.table_name","label":"9 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.record","label":"9 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__dont_treat_as_error__","label":"2 - ChatGPT - Create Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c3abb38f-0301-48b3-a553-6b0cfa19bc3d"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__action_status__","label":"2 - ChatGPT - Create Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"01034cba-e18a-48ac-89b0-d4781667dfd9"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record","label":"1 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.table_name","label":"1 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body","label":"2 - ChatGPT - Create Completion➛Response Body","reference_display":"Response Body","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7ce32aa7-ec39-42d8-b104-5044f0d2023d"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.record","label":"4 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.table_name","label":"4 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record.prompt","label":"1 - Update Record➛ChatGPT Prompt Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_648117_chatgpt_base","column_name":"prompt"},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code","label":"2 - ChatGPT - Create Completion➛Status Code","reference_display":"Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c484374c-fa11-4574-9d37-28584f9e44dc"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.response_body","label":"2 - ChatGPT - Create Chat Completion➛Response Body","reference_display":"Response Body","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7ce32aa7-ec39-42d8-b104-5044f0d2023d"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.status_code","label":"2 - ChatGPT - Create Chat Completion➛Status Code","reference_display":"Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c484374c-fa11-4574-9d37-28584f9e44dc"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.__action_status__","label":"2 - ChatGPT - Create Chat Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"01034cba-e18a-48ac-89b0-d4781667dfd9"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.__dont_treat_as_error__","label":"2 - ChatGPT - Create Chat Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c3abb38f-0301-48b3-a553-6b0cfa19bc3d"}},{"name":"Updated_1.current.prompt","label":"Trigger - Record Updated➛ChatGPT Prompt Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_648117_chatgpt_base","column_name":"prompt"}]</label_cache>
         <master_snapshot>1311d6bb876a25101fd74336cebb351c</master_snapshot>
-        <name>ChatGPT - Create Completion</name>
+        <name>Return ChatGPT Response to Prompt</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>4ce85e7787aa25101fd74336cebb35e4</remote_trigger_id>
+        <remote_trigger_id>d5606fc08772a5101fd74336cebb35b0</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>daef06f7876a25101fd74336cebb350e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
-        <sys_name>ChatGPT - Create Completion</sys_name>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Return ChatGPT Response to Prompt</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_hub_flow_daef06f7876a25101fd74336cebb350e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=daef06f7876a25101fd74336cebb350e"/>
@@ -57,15 +57,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 21:27:29</sys_created_on>
+        <sys_created_on>2023-05-09 21:18:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4ce85e7787aa25101fd74336cebb35e4</sys_id>
+        <sys_id>d5606fc08772a5101fd74336cebb35b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:26</sys_updated_on>
         <table>x_648117_chatgpt_base</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -74,34 +74,48 @@
         <identifier>daef06f7876a25101fd74336cebb350e</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 21:27:29</sys_created_on>
-        <sys_id>08e85e7787aa25101fd74336cebb35e5</sys_id>
+        <sys_created_on>2023-05-09 21:18:26</sys_created_on>
+        <sys_id>91606fc08772a5101fd74336cebb35b1</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
-        <trigger display_value="">4ce85e7787aa25101fd74336cebb35e4</trigger>
+        <sys_updated_on>2023-05-09 21:18:26</sys_updated_on>
+        <trigger display_value="">d5606fc08772a5101fd74336cebb35b0</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=daef06f7876a25101fd74336cebb350e^sys_idNOT IN08e85e7787aa25101fd74336cebb35e5"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=daef06f7876a25101fd74336cebb350e^sys_idNOT IN91606fc08772a5101fd74336cebb35b1"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=daef06f7876a25101fd74336cebb350e^sys_idNOT IN7150127b876a25101fd74336cebb355b"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:50:11</sys_created_on>
         <sys_id>7150127b876a25101fd74336cebb355b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:26</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7150127b876a25101fd74336cebb355b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7150127b876a25101fd74336cebb355b</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:34:20</sys_created_on>
+        <sys_id>58980b8087fe65101fd74336cebb35b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:37:20</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
         <document_key>7150127b876a25101fd74336cebb355b</document_key>
@@ -186,7 +200,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</model>
+        <model display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</model>
         <model_id>daef06f7876a25101fd74336cebb350e</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_daef06f7876a25101fd74336cebb350e</name>
@@ -269,7 +283,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</model>
+        <model display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</model>
         <model_id>daef06f7876a25101fd74336cebb350e</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_daef06f7876a25101fd74336cebb350e</name>
@@ -292,14 +306,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:50:11</sys_created_on>
         <sys_id>b9501a3b876a25101fd74336cebb35f8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -352,7 +366,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</model>
+        <model display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</model>
         <model_id>daef06f7876a25101fd74336cebb350e</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_daef06f7876a25101fd74336cebb350e</name>
@@ -375,14 +389,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:50:11</sys_created_on>
         <sys_id>f550127b876a25101fd74336cebb3555</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -397,7 +411,157 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=daef06f7876a25101fd74336cebb350e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=daef06f7876a25101fd74336cebb350e"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=daef06f7876a25101fd74336cebb350e^sys_idNOT IN5ce09e7b876a25101fd74336cebb35db,6e22563f876a25101fd74336cebb35c0,98e09e7b876a25101fd74336cebb35d5,99d89a7787aa25101fd74336cebb3553,f150127b876a25101fd74336cebb3561"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=daef06f7876a25101fd74336cebb350e^sys_idNOT IN0f45834c87be65101fd74336cebb35d9,4345834c87be65101fd74336cebb35cf,5ce09e7b876a25101fd74336cebb35db,6e22563f876a25101fd74336cebb35c0,99d89a7787aa25101fd74336cebb3553,a66353408732a5101fd74336cebb350f,f150127b876a25101fd74336cebb3561"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Close Skipped the task as the integration was successful</comment>
+        <display_text/>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
+        <order>7</order>
+        <parent_ui_id>fc641241-0e19-4797-91d3-ca11b6ddcc7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>0f45834c87be65101fd74336cebb35d9</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:19:32</sys_updated_on>
+        <ui_id>53dcd8ae-1b54-4b64-b1f7-212dde49ef8f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0f45834c87be65101fd74336cebb35d9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f45834c87be65101fd74336cebb35d9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>0f45834c87be65101fd74336cebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <value>x_648117_chatgpt_chatgpt_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f45834c87be65101fd74336cebb35d9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>4b45834c87be65101fd74336cebb35db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 20:36:52</sys_updated_on>
+        <value>state=7^work_notes=API was Successful</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0f45834c87be65101fd74336cebb35d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0f45834c87be65101fd74336cebb35d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>c745834c87be65101fd74336cebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{fc641241-0e19-4797-91d3-ca11b6ddcc7a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0f45834c87be65101fd74336cebb35d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>4345834c87be65101fd74336cebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0f45834c87be65101fd74336cebb35d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>0745834c87be65101fd74336cebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0f45834c87be65101fd74336cebb35d9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f45834c87be65101fd74336cebb35d9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Find all ChatGPT Tasks related to this Prompt record</comment>
+        <display_text/>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
+        <order>5</order>
+        <parent_ui_id>4b552268-ead6-44d6-bd24-1fe259330760</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>4345834c87be65101fd74336cebb35cf</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:19:32</sys_updated_on>
+        <ui_id>7e1c0013-cea4-41ab-b147-a7639a113bb7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4345834c87be65101fd74336cebb35cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4345834c87be65101fd74336cebb35cf</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>cb45834c87be65101fd74336cebb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <value>x_648117_chatgpt_chatgpt_task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4345834c87be65101fd74336cebb35cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4345834c87be65101fd74336cebb35cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>8345834c87be65101fd74336cebb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>prompt={{Updated_1.current}}^active=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4345834c87be65101fd74336cebb35cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>4b45834c87be65101fd74336cebb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4345834c87be65101fd74336cebb35cf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4345834c87be65101fd74336cebb35cf"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -405,17 +569,17 @@
         <action_type_parent/>
         <comment>Set state to Complete with result of call to ChatGPT</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
         <order>4</order>
         <parent_ui_id>4b552268-ead6-44d6-bd24-1fe259330760</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:52:32</sys_created_on>
         <sys_id>5ce09e7b876a25101fd74336cebb35db</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:29:08</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:19:32</sys_updated_on>
         <ui_id>155a1178-1de4-4443-a576-bc3e20bc1dca</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5ce09e7b876a25101fd74336cebb35db"/>
@@ -441,9 +605,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:52:32</sys_created_on>
         <sys_id>94e09e7b876a25101fd74336cebb35dd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:53:23</sys_updated_on>
+        <sys_updated_on>2023-05-09 20:36:52</sys_updated_on>
         <value/>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
@@ -478,11 +642,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:52:32</sys_created_on>
         <sys_id>50e09e7b876a25101fd74336cebb35dd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:53:23</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:07</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>state=complete^response={{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body}}</value>
+        <value>state=complete^response={{6ac65b68-2304-484f-8ee3-71229aa04be6.response_body}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5ce09e7b876a25101fd74336cebb35db"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5ce09e7b876a25101fd74336cebb35db"/>
@@ -493,20 +657,34 @@
         <action_type_parent/>
         <comment>Set state to Error with result of call to ChatGPT</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
-        <order>6</order>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
+        <order>9</order>
         <parent_ui_id>e21d0eb7-524b-4a30-9b41-75a64550c997</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:58:09</sys_created_on>
         <sys_id>6e22563f876a25101fd74336cebb35c0</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:29:08</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:19:32</sys_updated_on>
         <ui_id>18e009d0-1c51-406b-a960-3e3be6dcb96a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6e22563f876a25101fd74336cebb35c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e22563f876a25101fd74336cebb35c0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:44:42</sys_created_on>
+        <sys_id>d0fa078487fe65101fd74336cebb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:44:42</sys_updated_on>
+        <value>state=error</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>6e22563f876a25101fd74336cebb35c0</document_key>
@@ -552,103 +730,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:58:09</sys_created_on>
         <sys_id>aa22563f876a25101fd74336cebb35c2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:59:33</sys_updated_on>
+        <sys_updated_on>2023-05-09 19:44:42</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>state=error^response={{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6e22563f876a25101fd74336cebb35c0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e22563f876a25101fd74336cebb35c0"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="ChatGPT - Create Completion">e07bc2b3876a25101fd74336cebb3569</action_type>
-        <action_type_parent/>
-        <comment>Call ChatGPT</comment>
-        <display_text/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:52:32</sys_created_on>
-        <sys_id>98e09e7b876a25101fd74336cebb35d5</sys_id>
-        <sys_mod_count>34</sys_mod_count>
-        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:29:08</sys_updated_on>
-        <ui_id>6c4ffdb5-6a00-4e87-b871-50b7ef9170dd</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=98e09e7b876a25101fd74336cebb35d5"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>98e09e7b876a25101fd74336cebb35d5</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:52:32</sys_created_on>
-        <sys_id>1ce09e7b876a25101fd74336cebb35d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:52:32</sys_updated_on>
-        <value>text-davinci-003</value>
-        <variable display_value="model">a9dfc23b876a25101fd74336cebb3522</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>98e09e7b876a25101fd74336cebb35d5</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:52:32</sys_created_on>
-        <sys_id>dce09e7b876a25101fd74336cebb35d7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:54:08</sys_updated_on>
-        <value/>
-        <variable display_value="prompt">29dfc23b876a25101fd74336cebb3526</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=98e09e7b876a25101fd74336cebb35d5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>model</field>
-        <id>98e09e7b876a25101fd74336cebb35d5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:52:32</sys_created_on>
-        <sys_id>98e09e7b876a25101fd74336cebb35d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:52:32</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e07bc2b3876a25101fd74336cebb3569</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>prompt</field>
-        <id>98e09e7b876a25101fd74336cebb35d5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:52:32</sys_created_on>
-        <sys_id>d4e09e7b876a25101fd74336cebb35d7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:54:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e07bc2b3876a25101fd74336cebb3569</table>
-        <value>{{ce2a5dd6-237f-433c-a94f-3298939019f7.record.prompt}}</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=98e09e7b876a25101fd74336cebb35d5^sys_idNOT IN18e09e7b876a25101fd74336cebb35d6"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>model</input_name>
-        <instance>98e09e7b876a25101fd74336cebb35d5</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"model":{"scriptActive":false}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:52:32</sys_created_on>
-        <sys_id>18e09e7b876a25101fd74336cebb35d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:52:32</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=98e09e7b876a25101fd74336cebb35d5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -656,17 +745,17 @@
         <action_type_parent/>
         <comment>Create task to troubleshoot</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
-        <order>7</order>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
+        <order>10</order>
         <parent_ui_id>e21d0eb7-524b-4a30-9b41-75a64550c997</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 21:27:17</sys_created_on>
         <sys_id>99d89a7787aa25101fd74336cebb3553</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:29:08</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:19:32</sys_updated_on>
         <ui_id>cdbf1b60-9b21-4618-93dd-9783ca3dfe65</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=99d89a7787aa25101fd74336cebb3553"/>
@@ -678,9 +767,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 21:27:17</sys_created_on>
         <sys_id>5dd89a7787aa25101fd74336cebb3555</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:17</sys_updated_on>
+        <sys_updated_on>2023-05-09 20:36:52</sys_updated_on>
         <value>x_648117_chatgpt_chatgpt_task</value>
         <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
@@ -703,18 +792,67 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 21:27:17</sys_created_on>
         <sys_id>d9d89a7787aa25101fd74336cebb3555</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:17</sys_updated_on>
+        <sys_updated_on>2023-05-09 20:36:52</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}^prompt={{Updated_1.current}}^short_description=API Error^description=Response Body:
-{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body}}
+        <value>prompt={{Updated_1.current}}^short_description=API Error^description=Response Body:
+{{6ac65b68-2304-484f-8ee3-71229aa04be6.response_body}}
 
 Status Code:
-{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}</value>
+{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=99d89a7787aa25101fd74336cebb3553"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=99d89a7787aa25101fd74336cebb3553"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ChatGPT - Create Chat Completion">6b4217cc87fe65101fd74336cebb3507</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 20:21:43</sys_created_on>
+        <sys_id>a66353408732a5101fd74336cebb350f</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:19:32</sys_updated_on>
+        <ui_id>6ac65b68-2304-484f-8ee3-71229aa04be6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a66353408732a5101fd74336cebb350f"/>
+    <sys_element_mapping action="delete_multiple" query="id=a66353408732a5101fd74336cebb350f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>prompt</field>
+        <id>a66353408732a5101fd74336cebb350f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 20:21:43</sys_created_on>
+        <sys_id>e66353408732a5101fd74336cebb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 20:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6b4217cc87fe65101fd74336cebb3507</table>
+        <value>{{Updated_1.current.prompt}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a66353408732a5101fd74336cebb350f^sys_idNOT IN6a6353408732a5101fd74336cebb3510"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>model</input_name>
+        <instance>a66353408732a5101fd74336cebb350f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"model":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn gs.getProperty(\u0027x_648117_chatgpt.chat_completions_model\u0027);"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 20:21:43</sys_created_on>
+        <sys_id>6a6353408732a5101fd74336cebb3510</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 20:21:43</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a66353408732a5101fd74336cebb350f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -722,17 +860,17 @@ Status Code:
         <action_type_parent/>
         <comment>Set state to Processing</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:50:11</sys_created_on>
         <sys_id>f150127b876a25101fd74336cebb3561</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:29:08</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:19:32</sys_updated_on>
         <ui_id>ce2a5dd6-237f-433c-a94f-3298939019f7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f150127b876a25101fd74336cebb3561"/>
@@ -804,7 +942,7 @@ Status Code:
     <sys_hub_input_scripts action="delete_multiple" query="instance=f150127b876a25101fd74336cebb3561"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f150127b876a25101fd74336cebb3561"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=daef06f7876a25101fd74336cebb350e"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=daef06f7876a25101fd74336cebb350e^sys_idNOT IN6222563f876a25101fd74336cebb35bb,6622563f876a25101fd74336cebb35b4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=daef06f7876a25101fd74336cebb350e^sys_idNOT IN6222563f876a25101fd74336cebb35bb,6622563f876a25101fd74336cebb35b4,c345834c87be65101fd74336cebb35d3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">ae22563f876a25101fd74336cebb35ba</block>
         <comment/>
@@ -813,12 +951,12 @@ Status Code:
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>5</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -826,10 +964,10 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:58:09</sys_created_on>
         <sys_id>6222563f876a25101fd74336cebb35bb</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:27</sys_updated_on>
         <ui_id>e21d0eb7-524b-4a30-9b41-75a64550c997</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -845,7 +983,7 @@ Status Code:
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -859,10 +997,10 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:58:09</sys_created_on>
         <sys_id>6622563f876a25101fd74336cebb35b4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:27</sys_updated_on>
         <ui_id>4b552268-ead6-44d6-bd24-1fe259330760</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -889,11 +1027,11 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:58:09</sys_created_on>
         <sys_id>ea22563f876a25101fd74336cebb35b8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:58:09</sys_updated_on>
+        <sys_updated_on>2023-05-09 20:21:43</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}=200^NQ{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}=201^NQ{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}=204</value>
+        <value>{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}=200^NQ{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}=201^NQ{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}=204</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -909,6 +1047,52 @@ Status Code:
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6622563f876a25101fd74336cebb35b4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6622563f876a25101fd74336cebb35b4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c745834c87be65101fd74336cebb35d2</block>
+        <comment>For each task</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4b552268-ead6-44d6-bd24-1fe259330760</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>c345834c87be65101fd74336cebb35d3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:18:27</sys_updated_on>
+        <ui_id>fc641241-0e19-4797-91d3-ca11b6ddcc7a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c345834c87be65101fd74336cebb35d3"/>
+    <sys_element_mapping action="delete_multiple" query="id=c345834c87be65101fd74336cebb35d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>c345834c87be65101fd74336cebb35d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:02</sys_created_on>
+        <sys_id>cf45834c87be65101fd74336cebb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{7e1c0013-cea4-41ab-b147-a7639a113bb7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c345834c87be65101fd74336cebb35d3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c345834c87be65101fd74336cebb35d3"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=daef06f7876a25101fd74336cebb350e"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=daef06f7876a25101fd74336cebb350e"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_daef06f7876a25101fd74336cebb350e^sys_idNOT IN3950127b876a25101fd74336cebb3557,3d50127b876a25101fd74336cebb3554,f950127b876a25101fd74336cebb3551"/>
@@ -986,21 +1170,21 @@ Status Code:
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_daef06f7876a25101fd74336cebb350e"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=daef06f7876a25101fd74336cebb350e^sys_idNOT IN54211abb876a25101fd74336cebb3576"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"54211abb876a25101fd74336cebb3576","name":"plan","plan_signature":null}}</plan>
         <plan_id>daef06f7876a25101fd74336cebb350e</plan_id>
-        <snapshot>50495ab787aa25101fd74336cebb3519</snapshot>
+        <snapshot>99a0a7048772a5101fd74336cebb3599</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:53:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>54211abb876a25101fd74336cebb3576</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
-        <trigger display_value="">4ce85e7787aa25101fd74336cebb35e4</trigger>
+        <sys_updated_on>2023-05-09 21:18:26</sys_updated_on>
+        <trigger display_value="">d5606fc08772a5101fd74336cebb35b0</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=daef06f7876a25101fd74336cebb350e"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1014,12 +1198,12 @@ Status Code:
         <copied_from_name/>
         <description/>
         <internal_name>chatgpt__create_completion</internal_name>
-        <label_cache>[{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__dont_treat_as_error__","label":"7 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__action_status__","label":"7 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.table_name","label":"7 - Create Record➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.record","label":"7 - Create Record➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.table_name","label":"6 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.record","label":"6 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__dont_treat_as_error__","label":"2 - ChatGPT - Create Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c3abb38f-0301-48b3-a553-6b0cfa19bc3d"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__action_status__","label":"2 - ChatGPT - Create Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"01034cba-e18a-48ac-89b0-d4781667dfd9"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record","label":"1 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.table_name","label":"1 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body","label":"2 - ChatGPT - Create Completion➛Response Body","reference_display":"Response Body","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7ce32aa7-ec39-42d8-b104-5044f0d2023d"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.record","label":"4 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.table_name","label":"4 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record.prompt","label":"1 - Update Record➛ChatGPT Prompt Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_648117_chatgpt_base","column_name":"prompt"},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code","label":"2 - ChatGPT - Create Completion➛Status Code","reference_display":"Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c484374c-fa11-4574-9d37-28584f9e44dc"}}]</label_cache>
+        <label_cache>[{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.content","label":"2 - ChatGPT - Create Chat Completion➛Content","reference_display":"Content","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9ae0857f-a1b9-45bb-87d8-dce3fbb8fec9"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.table_name","label":"7 - Update Record➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53dcd8ae-1b54-4b64-b1f7-212dde49ef8f.record","label":"7 - Update Record➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fc641241-0e19-4797-91d3-ca11b6ddcc7a.item","label":"6 - For Each➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.__dont_treat_as_error__","label":"5 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.__action_status__","label":"5 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.Count","label":"5 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.Table","label":"5 - Look Up Records➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e1c0013-cea4-41ab-b147-a7639a113bb7.Records","label":"5 - Look Up Records➛ChatGPT Task Records","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__dont_treat_as_error__","label":"10 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.__action_status__","label":"10 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.table_name","label":"10 - Create Record➛ChatGPT Task Table","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cdbf1b60-9b21-4618-93dd-9783ca3dfe65.record","label":"10 - Create Record➛ChatGPT Task Record","reference":"x_648117_chatgpt_chatgpt_task","reference_display":"ChatGPT Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.table_name","label":"9 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18e009d0-1c51-406b-a960-3e3be6dcb96a.record","label":"9 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__dont_treat_as_error__","label":"2 - ChatGPT - Create Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c3abb38f-0301-48b3-a553-6b0cfa19bc3d"}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.__action_status__","label":"2 - ChatGPT - Create Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"01034cba-e18a-48ac-89b0-d4781667dfd9"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record","label":"1 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.table_name","label":"1 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{}},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body","label":"2 - ChatGPT - Create Completion➛Response Body","reference_display":"Response Body","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7ce32aa7-ec39-42d8-b104-5044f0d2023d"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.record","label":"4 - Update Record➛ChatGPT Prompt Record","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.table_name","label":"4 - Update Record➛ChatGPT Prompt Table","reference":"x_648117_chatgpt_base","reference_display":"ChatGPT Prompt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"155a1178-1de4-4443-a576-bc3e20bc1dca.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce2a5dd6-237f-433c-a94f-3298939019f7.record.prompt","label":"1 - Update Record➛ChatGPT Prompt Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_648117_chatgpt_base","column_name":"prompt"},{"name":"6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code","label":"2 - ChatGPT - Create Completion➛Status Code","reference_display":"Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c484374c-fa11-4574-9d37-28584f9e44dc"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.response_body","label":"2 - ChatGPT - Create Chat Completion➛Response Body","reference_display":"Response Body","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7ce32aa7-ec39-42d8-b104-5044f0d2023d"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.status_code","label":"2 - ChatGPT - Create Chat Completion➛Status Code","reference_display":"Status Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c484374c-fa11-4574-9d37-28584f9e44dc"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.__action_status__","label":"2 - ChatGPT - Create Chat Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"01034cba-e18a-48ac-89b0-d4781667dfd9"}},{"name":"6ac65b68-2304-484f-8ee3-71229aa04be6.__dont_treat_as_error__","label":"2 - ChatGPT - Create Chat Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c3abb38f-0301-48b3-a553-6b0cfa19bc3d"}},{"name":"Updated_1.current.prompt","label":"Trigger - Record Updated➛ChatGPT Prompt Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_648117_chatgpt_base","column_name":"prompt"}]</label_cache>
         <master>true</master>
-        <name>ChatGPT - Create Completion</name>
+        <name>Return ChatGPT Response to Prompt</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="ChatGPT - Create Completion">daef06f7876a25101fd74336cebb350e</parent_flow>
+        <parent_flow display_value="Return ChatGPT Response to Prompt">daef06f7876a25101fd74336cebb350e</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -1031,7 +1215,7 @@ Status Code:
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1311d6bb876a25101fd74336cebb351c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1039,7 +1223,7 @@ Status Code:
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:27</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=1311d6bb876a25101fd74336cebb351c"/>
@@ -1048,22 +1232,36 @@ Status Code:
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:53:36</sys_created_on>
         <sys_id>3311d6bb876a25101fd74336cebb35db</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:29</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:26</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3311d6bb876a25101fd74336cebb35db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3311d6bb876a25101fd74336cebb35db</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:37:35</sys_created_on>
+        <sys_id>00594fc087fe65101fd74336cebb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:37:35</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
         <document_key>3311d6bb876a25101fd74336cebb35db</document_key>
@@ -1148,7 +1346,7 @@ Status Code:
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</model>
+        <model display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</model>
         <model_id>1311d6bb876a25101fd74336cebb351c</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1311d6bb876a25101fd74336cebb351c</name>
@@ -1231,7 +1429,7 @@ Status Code:
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</model>
+        <model display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</model>
         <model_id>1311d6bb876a25101fd74336cebb351c</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1311d6bb876a25101fd74336cebb351c</name>
@@ -1254,14 +1452,14 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:53:34</sys_created_on>
         <sys_id>6711d6bb876a25101fd74336cebb351e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1314,7 +1512,7 @@ Status Code:
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</model>
+        <model display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</model>
         <model_id>1311d6bb876a25101fd74336cebb351c</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_1311d6bb876a25101fd74336cebb351c</name>
@@ -1337,14 +1535,14 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:53:35</sys_created_on>
         <sys_id>ef11d6bb876a25101fd74336cebb358a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1359,7 +1557,56 @@ Status Code:
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=1311d6bb876a25101fd74336cebb351c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1311d6bb876a25101fd74336cebb351c"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=1311d6bb876a25101fd74336cebb351c^sys_idNOT IN3c82527f876a25101fd74336cebb355d,3f11d6bb876a25101fd74336cebb35d3,5fd81e7787aa25101fd74336cebb35ae,6f11d6bb876a25101fd74336cebb35b3,f311d6bb876a25101fd74336cebb35d9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1311d6bb876a25101fd74336cebb351c^sys_idNOT IN1fe65b448732a5101fd74336cebb353b,3c82527f876a25101fd74336cebb355d,5fd81e7787aa25101fd74336cebb35ae,6d55474c87be65101fd74336cebb35c7,6f11d6bb876a25101fd74336cebb35b3,b555474c87be65101fd74336cebb35ce,f311d6bb876a25101fd74336cebb35d9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ChatGPT - Create Chat Completion">6b4217cc87fe65101fd74336cebb3507</action_type>
+        <action_type_parent display_value="ChatGPT - Create Chat Completion">a7ffc70c87fe65101fd74336cebb3549</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 20:37:04</sys_created_on>
+        <sys_id>1fe65b448732a5101fd74336cebb353b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
+        <ui_id>6ac65b68-2304-484f-8ee3-71229aa04be6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fe65b448732a5101fd74336cebb353b"/>
+    <sys_element_mapping action="delete_multiple" query="id=1fe65b448732a5101fd74336cebb353b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>prompt</field>
+        <id>1fe65b448732a5101fd74336cebb353b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 20:37:04</sys_created_on>
+        <sys_id>d7e65b448732a5101fd74336cebb353d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 20:37:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6b4217cc87fe65101fd74336cebb3507</table>
+        <value>{{Updated_1.current.prompt}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1fe65b448732a5101fd74336cebb353b^sys_idNOT IN9fe65b448732a5101fd74336cebb353c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>model</input_name>
+        <instance>1fe65b448732a5101fd74336cebb353b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"model":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn gs.getProperty(\u0027x_648117_chatgpt.chat_completions_model\u0027);"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 20:37:04</sys_created_on>
+        <sys_id>9fe65b448732a5101fd74336cebb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 20:37:04</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fe65b448732a5101fd74336cebb353b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1367,20 +1614,34 @@ Status Code:
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment>Set state to Error with result of call to ChatGPT</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
-        <order>6</order>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
+        <order>9</order>
         <parent_ui_id>e21d0eb7-524b-4a30-9b41-75a64550c997</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:59:40</sys_created_on>
         <sys_id>3c82527f876a25101fd74336cebb355d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
         <ui_id>18e009d0-1c51-406b-a960-3e3be6dcb96a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3c82527f876a25101fd74336cebb355d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3c82527f876a25101fd74336cebb355d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:44:57</sys_created_on>
+        <sys_id>37fac78487fe65101fd74336cebb35e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:44:57</sys_updated_on>
+        <value>state=error</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>3c82527f876a25101fd74336cebb355d</document_key>
@@ -1426,103 +1687,14 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:59:40</sys_created_on>
         <sys_id>3082527f876a25101fd74336cebb355f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:59:40</sys_updated_on>
+        <sys_updated_on>2023-05-09 19:44:57</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>state=error^response={{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=3c82527f876a25101fd74336cebb355d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3c82527f876a25101fd74336cebb355d"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="ChatGPT - Create Completion">e07bc2b3876a25101fd74336cebb3569</action_type>
-        <action_type_parent display_value="ChatGPT - Create Completion">d533ca7b87e625101fd74336cebb3573</action_type_parent>
-        <comment>Call ChatGPT</comment>
-        <display_text/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:53:36</sys_created_on>
-        <sys_id>3f11d6bb876a25101fd74336cebb35d3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
-        <ui_id>6c4ffdb5-6a00-4e87-b871-50b7ef9170dd</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=3f11d6bb876a25101fd74336cebb35d3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>3f11d6bb876a25101fd74336cebb35d3</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:53:36</sys_created_on>
-        <sys_id>b711d6bb876a25101fd74336cebb35d5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:54:15</sys_updated_on>
-        <value/>
-        <variable display_value="prompt">29dfc23b876a25101fd74336cebb3526</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>3f11d6bb876a25101fd74336cebb35d3</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:53:36</sys_created_on>
-        <sys_id>f311d6bb876a25101fd74336cebb35d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:53:36</sys_updated_on>
-        <value>text-davinci-003</value>
-        <variable display_value="model">a9dfc23b876a25101fd74336cebb3522</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=3f11d6bb876a25101fd74336cebb35d3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>model</field>
-        <id>3f11d6bb876a25101fd74336cebb35d3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:53:36</sys_created_on>
-        <sys_id>7311d6bb876a25101fd74336cebb35d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:53:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e07bc2b3876a25101fd74336cebb3569</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>prompt</field>
-        <id>3f11d6bb876a25101fd74336cebb35d3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:53:36</sys_created_on>
-        <sys_id>bf11d6bb876a25101fd74336cebb35d4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:54:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e07bc2b3876a25101fd74336cebb3569</table>
-        <value>{{ce2a5dd6-237f-433c-a94f-3298939019f7.record.prompt}}</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=3f11d6bb876a25101fd74336cebb35d3^sys_idNOT IN7b11d6bb876a25101fd74336cebb35d4"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>model</input_name>
-        <instance>3f11d6bb876a25101fd74336cebb35d3</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"model":{"scriptActive":false}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 20:53:36</sys_created_on>
-        <sys_id>7b11d6bb876a25101fd74336cebb35d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:53:36</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3f11d6bb876a25101fd74336cebb35d3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1530,17 +1702,17 @@ Status Code:
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment>Create task to troubleshoot</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
-        <order>7</order>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
+        <order>10</order>
         <parent_ui_id>e21d0eb7-524b-4a30-9b41-75a64550c997</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 21:27:26</sys_created_on>
         <sys_id>5fd81e7787aa25101fd74336cebb35ae</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:27</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
         <ui_id>cdbf1b60-9b21-4618-93dd-9783ca3dfe65</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5fd81e7787aa25101fd74336cebb35ae"/>
@@ -1577,18 +1749,80 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 21:27:26</sys_created_on>
         <sys_id>dfd81e7787aa25101fd74336cebb35af</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 20:37:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}^prompt={{Updated_1.current}}^short_description=API Error^description=Response Body:
-{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body}}
+        <value>prompt={{Updated_1.current}}^short_description=API Error^description=Response Body:
+{{6ac65b68-2304-484f-8ee3-71229aa04be6.response_body}}
 
 Status Code:
-{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}</value>
+{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5fd81e7787aa25101fd74336cebb35ae"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5fd81e7787aa25101fd74336cebb35ae"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Find all ChatGPT Tasks related to this Prompt record</comment>
+        <display_text/>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
+        <order>5</order>
+        <parent_ui_id>4b552268-ead6-44d6-bd24-1fe259330760</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>6d55474c87be65101fd74336cebb35c7</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
+        <ui_id>7e1c0013-cea4-41ab-b147-a7639a113bb7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d55474c87be65101fd74336cebb35c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6d55474c87be65101fd74336cebb35c7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>e555474c87be65101fd74336cebb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <value>x_648117_chatgpt_chatgpt_task</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6d55474c87be65101fd74336cebb35c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>6d55474c87be65101fd74336cebb35c7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>a155474c87be65101fd74336cebb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>prompt={{Updated_1.current}}^active=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>6d55474c87be65101fd74336cebb35c7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>6555474c87be65101fd74336cebb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6d55474c87be65101fd74336cebb35c7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6d55474c87be65101fd74336cebb35c7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1596,17 +1830,17 @@ Status Code:
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment>Set state to Processing</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:53:35</sys_created_on>
         <sys_id>6f11d6bb876a25101fd74336cebb35b3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
         <ui_id>ce2a5dd6-237f-433c-a94f-3298939019f7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6f11d6bb876a25101fd74336cebb35b3"/>
@@ -1682,19 +1916,107 @@ Status Code:
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Close Skipped the task as the integration was successful</comment>
+        <display_text/>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
+        <order>7</order>
+        <parent_ui_id>fc641241-0e19-4797-91d3-ca11b6ddcc7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>b555474c87be65101fd74336cebb35ce</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
+        <ui_id>53dcd8ae-1b54-4b64-b1f7-212dde49ef8f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b555474c87be65101fd74336cebb35ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b555474c87be65101fd74336cebb35ce</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>b155474c87be65101fd74336cebb35d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <value>x_648117_chatgpt_chatgpt_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b555474c87be65101fd74336cebb35ce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>fd55474c87be65101fd74336cebb35cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 20:37:04</sys_updated_on>
+        <value>state=7^work_notes=API was Successful</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b555474c87be65101fd74336cebb35ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b555474c87be65101fd74336cebb35ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>7d55474c87be65101fd74336cebb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{fc641241-0e19-4797-91d3-ca11b6ddcc7a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b555474c87be65101fd74336cebb35ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>f555474c87be65101fd74336cebb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b555474c87be65101fd74336cebb35ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>b955474c87be65101fd74336cebb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b555474c87be65101fd74336cebb35ce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b555474c87be65101fd74336cebb35ce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment>Set state to Complete with result of call to ChatGPT</comment>
         <display_text/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
         <order>4</order>
         <parent_ui_id>4b552268-ead6-44d6-bd24-1fe259330760</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:53:36</sys_created_on>
         <sys_id>f311d6bb876a25101fd74336cebb35d9</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
         <ui_id>155a1178-1de4-4443-a576-bc3e20bc1dca</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f311d6bb876a25101fd74336cebb35d9"/>
@@ -1743,16 +2065,16 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:53:36</sys_created_on>
         <sys_id>f711d6bb876a25101fd74336cebb35da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:53:36</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:22</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>state=complete^response={{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.response_body}}</value>
+        <value>state=complete^response={{6ac65b68-2304-484f-8ee3-71229aa04be6.response_body}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f311d6bb876a25101fd74336cebb35d9"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f311d6bb876a25101fd74336cebb35d9"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1311d6bb876a25101fd74336cebb351c"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=1311d6bb876a25101fd74336cebb351c^sys_idNOT IN7082527f876a25101fd74336cebb3564,7c82527f876a25101fd74336cebb355f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1311d6bb876a25101fd74336cebb351c^sys_idNOT IN7082527f876a25101fd74336cebb3564,7c82527f876a25101fd74336cebb355f,f555474c87be65101fd74336cebb35da"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">ae22563f876a25101fd74336cebb35ba</block>
         <comment/>
@@ -1761,12 +2083,12 @@ Status Code:
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>5</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1774,10 +2096,10 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:59:40</sys_created_on>
         <sys_id>7082527f876a25101fd74336cebb3564</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
         <ui_id>e21d0eb7-524b-4a30-9b41-75a64550c997</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1793,7 +2115,7 @@ Status Code:
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="ChatGPT - Create Completion">1311d6bb876a25101fd74336cebb351c</flow>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1807,10 +2129,10 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:59:40</sys_created_on>
         <sys_id>7c82527f876a25101fd74336cebb355f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:27:26</sys_updated_on>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
         <ui_id>4b552268-ead6-44d6-bd24-1fe259330760</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1837,11 +2159,11 @@ Status Code:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 20:59:40</sys_created_on>
         <sys_id>f482527f876a25101fd74336cebb3563</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 20:59:40</sys_updated_on>
+        <sys_updated_on>2023-05-09 20:37:04</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}=200^NQ{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}=201^NQ{{6c4ffdb5-6a00-4e87-b871-50b7ef9170dd.status_code}}=204</value>
+        <value>{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}=200^NQ{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}=201^NQ{{6ac65b68-2304-484f-8ee3-71229aa04be6.status_code}}=204</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1857,6 +2179,52 @@ Status Code:
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7c82527f876a25101fd74336cebb355f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7c82527f876a25101fd74336cebb355f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c745834c87be65101fd74336cebb35d2</block>
+        <comment>For each task</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Return ChatGPT Response to Prompt">1311d6bb876a25101fd74336cebb351c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4b552268-ead6-44d6-bd24-1fe259330760</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>f555474c87be65101fd74336cebb35da</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:18:23</sys_updated_on>
+        <ui_id>fc641241-0e19-4797-91d3-ca11b6ddcc7a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f555474c87be65101fd74336cebb35da"/>
+    <sys_element_mapping action="delete_multiple" query="id=f555474c87be65101fd74336cebb35da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f555474c87be65101fd74336cebb35da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 19:20:13</sys_created_on>
+        <sys_id>b155474c87be65101fd74336cebb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 19:20:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{7e1c0013-cea4-41ab-b147-a7639a113bb7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f555474c87be65101fd74336cebb35da"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f555474c87be65101fd74336cebb35da"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=1311d6bb876a25101fd74336cebb351c"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=1311d6bb876a25101fd74336cebb351c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1311d6bb876a25101fd74336cebb351c^sys_idNOT INa311d6bb876a25101fd74336cebb358f,ab11d6bb876a25101fd74336cebb3587,ef11d6bb876a25101fd74336cebb357f"/>
