@@ -2,7 +2,7 @@
     <sys_ui_macro action="INSERT_OR_UPDATE">
         <active>true</active>
         <category>general</category>
-        <description/>
+        <description>Colors UI actions on form</description>
         <media_type/>
         <name>chatgpt_form</name>
         <scoped_name>x_648117_chatgpt_chatgpt_form</scoped_name>
@@ -10,18 +10,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 21:06:01</sys_created_on>
         <sys_id>207316bf876a25101fd74336cebb35d7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>chatgpt_form</sys_name>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_ui_macro_207316bf876a25101fd74336cebb35d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:09:51</sys_updated_on>
+        <sys_updated_on>2023-05-11 17:49:58</sys_updated_on>
         <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<style>#cancel_gpt_prompt {background-color: red; color: white;}</style>
 	<style>#ready_for_processing {background-color: green; color: white;}</style>
+	<style>#continue_conversation {background-color: green; color: white;}</style>
+	<style>#latest_prompt {background-color: #2c778f; color: white;}</style>
 </j:jelly>]]></xml>
     </sys_ui_macro>
 </record_update>
