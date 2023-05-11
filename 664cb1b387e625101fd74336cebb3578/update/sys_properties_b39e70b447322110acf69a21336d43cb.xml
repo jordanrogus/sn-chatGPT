@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Sys ID of the group assigned to incidents generated per ChatGPT flows erroring out. As this group is assigned to an incident please ensure they have the appropriate role to work the incident.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_648117_chatgpt.fallout_incident_group</name>
+        <read_roles>x_648117_chatgpt.user</read_roles>
+        <suffix>fallout_incident_group</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 17:27:05</sys_created_on>
+        <sys_id>b39e70b447322110acf69a21336d43cb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_648117_chatgpt.fallout_incident_group</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_properties_b39e70b447322110acf69a21336d43cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 17:36:16</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles>x_648117_chatgpt.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=b39e70b447322110acf69a21336d43cb"/>
+</record_update>

@@ -15,18 +15,18 @@
         <mobile_title>Create Prompt</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_648117_chatgpt_base</name>
-        <order>500</order>
-        <override_menu_roles>false</override_menu_roles>
+        <order>5000</order>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_648117_chatgpt.task_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 21:17:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>58a65e7387aa25101fd74336cebb3516</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_app_module_58a65e7387aa25101fd74336cebb3516</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 21:17:39</sys_updated_on>
+        <sys_updated_on>2023-05-10 21:33:50</sys_updated_on>
         <timeline_page/>
         <title>Tasks</title>
         <uncancelable>false</uncancelable>
