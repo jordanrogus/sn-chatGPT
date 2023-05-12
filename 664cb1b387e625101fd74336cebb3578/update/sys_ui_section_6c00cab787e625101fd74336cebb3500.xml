@@ -3,170 +3,212 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>
             <position>0</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>ed4430e4877ae5101fd74336cebb355a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>7af4357c47362110acf69a21336d43cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">8f7d0e37876a25101fd74336cebb35f2</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>1</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>2d4430e4877ae5101fd74336cebb355b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>fef4357c47362110acf69a21336d43cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>2</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>214430e4877ae5101fd74336cebb355c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>72f4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>3</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>254430e4877ae5101fd74336cebb355c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>c3f4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>294430e4877ae5101fd74336cebb355c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>47f4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>submitter</element>
             <position>5</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>2d4430e4877ae5101fd74336cebb355c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>c7f4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_on</element>
             <position>6</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>214430e4877ae5101fd74336cebb355d</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>4bf4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>conversation</element>
             <position>7</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>254430e4877ae5101fd74336cebb355d</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>cbf4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>8</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>294430e4877ae5101fd74336cebb355d</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>4ff4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>prompt</element>
+            <element>.begin_split</element>
             <position>9</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>2d4430e4877ae5101fd74336cebb355d</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>cff4357c47362110acf69a21336d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>response</element>
+            <element>model</element>
             <position>10</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>214430e4877ae5101fd74336cebb355e</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>43f4357c47362110acf69a21336d43d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_648117_chatgpt_chatgpt_form.xml</element>
+            <element>temperature</element>
             <position>11</position>
-            <sys_created_by>jordan.rogus</sys_created_by>
-            <sys_created_on>2023-05-10 22:03:23</sys_created_on>
-            <sys_id>254430e4877ae5101fd74336cebb355e</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>c3f4357c47362110acf69a21336d43d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="ChatGPT Form UI Macro">3b0452ff876a25101fd74336cebb351e</sys_ui_formatter>
+            <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
-            <sys_updated_by>jordan.rogus</sys_updated_by>
-            <sys_updated_on>2023-05-10 22:03:23</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
             <sys_user/>
-            <type>formatter</type>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>47f4357c47362110acf69a21336d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>presence_penalty</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>c7f4357c47362110acf69a21336d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>frequency_penalty</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:24:36</sys_created_on>
+            <sys_id>4bf4357c47362110acf69a21336d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">6c00cab787e625101fd74336cebb3500</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

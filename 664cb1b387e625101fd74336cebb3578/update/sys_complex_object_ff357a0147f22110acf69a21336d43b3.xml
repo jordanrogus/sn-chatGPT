@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD3f357a0125f22110b7cc610e810c05b3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>664cb1b387e625101fd74336cebb3578</scope_name>
+        <serialized_content>{"FlowDesigner:FD3f357a0125f22110b7cc610e810c05b3":{},"FlowDesigner:FD3f357a0125f22110b7cc610e810c05b3.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"payload\",\"mandatory\":\"false\",\"uiUniqueId\":\"a1fe6ba0-7209-477f-bdce-220c44d22920\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3f357a0125f22110b7cc610e810c05b3\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 20:43:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff357a0147f22110acf69a21336d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD3f357a0125f22110b7cc610e810c05b3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_complex_object_ff357a0147f22110acf69a21336d43b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 20:43:51</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
-        <choices/>
-        <description>ID of the model to use in the Chat Completions API class.&#13;
+        <choices>gpt-4, gpt-4-0314, gpt-4-32k, gpt-4-32k-0314, gpt-3.5-turbo, gpt-3.5-turbo-0301</choices>
+        <description>ID of the model to use in the Chat Completions API class if none provided.&#13;
 &#13;
 https://platform.openai.com/docs/api-reference/chat/create</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_648117_chatgpt.chat_completions_model</name>
+        <name>x_648117_chatgpt.chat_completions_default_model</name>
         <read_roles>x_648117_chatgpt.user</read_roles>
-        <suffix>chat_completions_model</suffix>
+        <suffix>chat_completions_default_model</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-09 20:18:40</sys_created_on>
         <sys_id>39b21bcc87fe65101fd74336cebb3597</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_648117_chatgpt.chat_completions_model</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_648117_chatgpt.chat_completions_default_model</sys_name>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_properties_39b21bcc87fe65101fd74336cebb3597</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-09 20:18:40</sys_updated_on>
-        <type>string</type>
+        <sys_updated_on>2023-05-11 21:14:44</sys_updated_on>
+        <type>choicelist</type>
         <value>gpt-3.5-turbo</value>
         <write_roles>x_648117_chatgpt.admin</write_roles>
     </sys_properties>

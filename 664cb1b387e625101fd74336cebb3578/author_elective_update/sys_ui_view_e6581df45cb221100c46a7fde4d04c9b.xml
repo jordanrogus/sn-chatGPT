@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace-ChatGPT-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 19:19:32</sys_created_on>
+        <sys_id>e6581df45cb221100c46a7fde4d04c9b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Workspace ChatGPT 0</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_ui_view_e6581df45cb221100c46a7fde4d04c9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 19:19:50</sys_updated_on>
+        <title>Workspace ChatGPT 0</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_ui_view_e6581df45cb221100c46a7fde4d04c9b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Workspace-ChatGPT-0</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-11 19:19:32</sys_created_on><sys_id>e6581df45cb221100c46a7fde4d04c9b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Workspace ChatGPT 0</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_ui_view_e6581df45cb221100c46a7fde4d04c9b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-11 19:19:50</sys_updated_on><title>Workspace ChatGPT 0</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-933732494</payload_hash>
+        <record_name>Workspace ChatGPT 0</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 19:19:50</sys_created_on>
+        <sys_id>e368153847b22110acf69a21336d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1880c415e910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 19:19:50</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>1f6815384ab22110788168ebe9f7b553</update_guid>
+        <update_guid_history>1f6815384ab22110788168ebe9f7b553:-933732494,db681538e5b221105e401e43c9629238:-319739275</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 21:30:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>00aa0e06929c42e89639a83d776341e1</sys_id>
+        <sys_metadata>e6581df45cb221100c46a7fde4d04c9b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace ChatGPT 0</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_ui_view_e6581df45cb221100c46a7fde4d04c9b</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_e6581df45cb221100c46a7fde4d04c9b">e368153847b22110acf69a21336d4354</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 21:30:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

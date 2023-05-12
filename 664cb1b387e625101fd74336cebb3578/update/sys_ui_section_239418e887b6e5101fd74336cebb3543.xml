@@ -4,29 +4,85 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-10 19:54:50</sys_created_on>
-            <sys_id>6ad698ac87b6e5101fd74336cebb35a5</sys_id>
+            <sys_created_on>2023-05-11 22:42:30</sys_created_on>
+            <sys_id>d0d60e7847b62110acf69a21336d43cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">239418e887b6e5101fd74336cebb3543</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-10 19:54:50</sys_updated_on>
+            <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>12M.x_648117_chatgpt_chatgpt_conversation.x_648117_chatgpt_base.conversation</element>
+            <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-10 19:54:50</sys_created_on>
-            <sys_id>62d698ac87b6e5101fd74336cebb35a6</sys_id>
+            <sys_created_on>2023-05-11 22:42:30</sys_created_on>
+            <sys_id>54d60e7847b62110acf69a21336d43cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">239418e887b6e5101fd74336cebb3543</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-10 19:54:50</sys_updated_on>
+            <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
             <sys_user/>
-            <type>list</type>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_prompt_tokens</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 22:42:30</sys_created_on>
+            <sys_id>d4d60e7847b62110acf69a21336d43cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">239418e887b6e5101fd74336cebb3543</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_completion_tokens</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 22:42:30</sys_created_on>
+            <sys_id>58d60e7847b62110acf69a21336d43cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">239418e887b6e5101fd74336cebb3543</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 22:42:30</sys_created_on>
+            <sys_id>d8d60e7847b62110acf69a21336d43cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">239418e887b6e5101fd74336cebb3543</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_tokens</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 22:42:30</sys_created_on>
+            <sys_id>d8d60e7847b62110acf69a21336d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">239418e887b6e5101fd74336cebb3543</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

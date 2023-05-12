@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>The maximum number of prompts to use in a conversations. The higher this number the more data fed into the model, however the tokens used will exponentially increase.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_648117_chatgpt.max_number_of_prompts</name>
+        <read_roles>x_648117_chatgpt.user</read_roles>
+        <suffix>max_number_of_prompts</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 18:52:41</sys_created_on>
+        <sys_id>2bcbda0947322110acf69a21336d436a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_648117_chatgpt.max_number_of_prompts</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_properties_2bcbda0947322110acf69a21336d436a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 18:53:44</sys_updated_on>
+        <type>integer</type>
+        <value>3</value>
+        <write_roles>x_648117_chatgpt.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=2bcbda0947322110acf69a21336d436a"/>
+</record_update>

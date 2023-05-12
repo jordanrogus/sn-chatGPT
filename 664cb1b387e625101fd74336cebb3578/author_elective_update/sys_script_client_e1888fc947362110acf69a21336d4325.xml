@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide number and created fields until the record is submitted</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide fields until record submission</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    // Hide fields if record is not submitted to database
+    if (g_form.isNewRecord()) {
+        g_form.setVisible('number', false);
+        g_form.setVisible('sys_created_on', false);
+    } else {
+        g_form.setVisible('number', true);
+        g_form.setVisible('sys_created_on', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 22:09:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1888fc947362110acf69a21336d4325</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hide fields until record submission</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_script_client_e1888fc947362110acf69a21336d4325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 22:11:23</sys_updated_on>
+        <table>x_648117_chatgpt_base</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_script_client_e1888fc947362110acf69a21336d4325</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Hide number and created fields until the record is submitted&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hide fields until record submission&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    // Hide fields if record is not submitted to database
+    if (g_form.isNewRecord()) {
+        g_form.setVisible('number', false);
+        g_form.setVisible('sys_created_on', false);
+    } else {
+        g_form.setVisible('number', true);
+        g_form.setVisible('sys_created_on', true);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-12 22:09:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e1888fc947362110acf69a21336d4325&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide fields until record submission&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ChatGPT" source="x_648117_chatgpt"&gt;664cb1b387e625101fd74336cebb3578&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChatGPT"&gt;664cb1b387e625101fd74336cebb3578&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e1888fc947362110acf69a21336d4325&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-12 22:11:23&lt;/sys_updated_on&gt;&lt;table&gt;x_648117_chatgpt_base&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2060731686</payload_hash>
+        <record_name>Hide fields until record submission</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 22:11:23</sys_created_on>
+        <sys_id>0e49c70d47362110acf69a21336d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1881204c8af0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 22:11:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0649c70d94362110d871394607ca052e</update_guid>
+        <update_guid_history>0649c70d94362110d871394607ca052e:-2060731686,93e8430ddb3621104c5db8ae34d04642:-2038978502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 22:13:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>67eb70b61c734c708c1b252577920a41</sys_id>
+        <sys_metadata>e1888fc947362110acf69a21336d4325</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide fields until record submission</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent display_value="ChatGPT Prompt">ccdc3db387e625101fd74336cebb3583</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_e1888fc947362110acf69a21336d4325</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e1888fc947362110acf69a21336d4325">0e49c70d47362110acf69a21336d432e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 22:13:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

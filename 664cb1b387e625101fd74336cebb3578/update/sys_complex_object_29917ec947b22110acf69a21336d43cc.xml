@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD65917ec9dab22110b7bc5893ee7a66cc</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>664cb1b387e625101fd74336cebb3578</scope_name>
+        <serialized_content>{"FlowDesigner:FD65917ec9dab22110b7bc5893ee7a66cc":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD65917ec9dab22110b7bc5893ee7a66cc.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Messages\",\"mandatory\":\"false\",\"child_name\":\"variable_child0\",\"uiUniqueId\":\"535ba0c2-f804-45e8-b5ad-938d013e72dd\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD65917ec9dab22110b7bc5893ee7a66cc\",\"child_label\":\"variable_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bf45cc3d-9fb8-47ec-bca1-6ac13151235f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 20:27:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29917ec947b22110acf69a21336d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD65917ec9dab22110b7bc5893ee7a66cc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_complex_object_29917ec947b22110acf69a21336d43cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 20:27:51</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

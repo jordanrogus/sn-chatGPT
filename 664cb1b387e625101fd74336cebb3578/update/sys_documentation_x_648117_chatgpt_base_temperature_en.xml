@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="temperature" label="Temperature" language="en" table="x_648117_chatgpt_base">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>temperature</element>
+            <help/>
+            <hint>What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic</hint>
+            <label>Temperature</label>
+            <language>en</language>
+            <name>x_648117_chatgpt_base</name>
+            <plural>Temperatures</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 21:18:18</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Temperature</sys_name>
+            <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+            <sys_update_name>sys_documentation_x_648117_chatgpt_base_temperature_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 21:26:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

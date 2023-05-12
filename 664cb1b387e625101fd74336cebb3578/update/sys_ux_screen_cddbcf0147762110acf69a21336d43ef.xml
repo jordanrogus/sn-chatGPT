@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="ChatGPT Config">6e581df4f7b22110e7ae01c3ffa4f39f</app_config>
+        <description/>
+        <event_mappings>[ {&#13;
+  "eventMappingId" : "clddhhlgseeqaabaabddfggzvbnsshhkd",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_88cfd0cec3302010ec37e0dd9740dde6",&#13;
+  "sourceEventCorrelationId" : null,&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_88cfd0cec3302010ec37e0dd9740dde6",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "conditional" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "route" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "route" ]&#13;
+            }&#13;
+          },&#13;
+          "fields" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "fields" ]&#13;
+            }&#13;
+          },&#13;
+          "params" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "params" ]&#13;
+            }&#13;
+          },&#13;
+          "redirect" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "redirect" ]&#13;
+            }&#13;
+          },&#13;
+          "passiveNavigation" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "passiveNavigation" ]&#13;
+            }&#13;
+          },&#13;
+          "title" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "title" ]&#13;
+            }&#13;
+          },&#13;
+          "multiInstField" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "multiInstField" ]&#13;
+            }&#13;
+          },&#13;
+          "targetRoute" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "targetRoute" ]&#13;
+            }&#13;
+          },&#13;
+          "external" : null&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "clddhhlgseeqaabaacddfggzaaffqiikpcii",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckssfsuriiaaaaaauddhiiffnlhhwhxev",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_base_ac.NAV_ITEM_SELECTED_RELAY_88cfd0cec3302010ec37e0dd9740dde6",&#13;
+  "sourceEventCorrelationId" : null,&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_base_ac.NAV_ITEM_SELECTED_RELAY_88cfd0cec3302010ec37e0dd9740dde6",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "conditional" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "route" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "route" ]&#13;
+            }&#13;
+          },&#13;
+          "fields" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "fields" ]&#13;
+            }&#13;
+          },&#13;
+          "params" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "params" ]&#13;
+            }&#13;
+          },&#13;
+          "redirect" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "redirect" ]&#13;
+            }&#13;
+          },&#13;
+          "passiveNavigation" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "passiveNavigation" ]&#13;
+            }&#13;
+          },&#13;
+          "title" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "title" ]&#13;
+            }&#13;
+          },&#13;
+          "multiInstField" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "multiInstField" ]&#13;
+            }&#13;
+          },&#13;
+          "targetRoute" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "targetRoute" ]&#13;
+            }&#13;
+          },&#13;
+          "external" : {&#13;
+            "type" : "JSON_LITERAL",&#13;
+            "value" : null&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "ckssfsuriiaaaaaavddhiiffpzzxddddsdd",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+} ]</event_mappings>
+        <macroponent display_value="Analytics Center">88cfd0cec3302010ec37e0dd9740dde6</macroponent>
+        <macroponent_config>{&#13;
+  "label" : {&#13;
+    "type" : "TRANSLATION_LITERAL",&#13;
+    "value" : {&#13;
+      "code" : null,&#13;
+      "message" : "",&#13;
+      "comment" : ""&#13;
+    }&#13;
+  },&#13;
+  "bare" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : true&#13;
+  },&#13;
+  "scrollable" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "y"&#13;
+  },&#13;
+  "headerLevel" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : "1"&#13;
+  },&#13;
+  "headingOnlyVisibleToScreenReaders" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "interceptNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "propagateNotifications" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  }&#13;
+}</macroponent_config>
+        <name>Agent Workspace App Shell</name>
+        <order>0</order>
+        <parent_macroponent/>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Analytics Center">aa581df427b2211075bf4e5be126e899</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 22:23:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cddbcf0147762110acf69a21336d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent Workspace App Shell</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_ux_screen_cddbcf0147762110acf69a21336d43ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 22:23:58</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=cddbcf0147762110acf69a21336d43ef"/>
+</record_update>
