@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_648117_chatgpt_base.prompt">stateNOT INready,processing,complete,cancelled^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow list_edit for prompt in x_648117_chatgpt_base, for users with role x_648117_chatgpt.user, and if the ACL condition (stateNOT INready,processing,complete,cancelled^EQ) evaluates to true.</description>
+        <name>x_648117_chatgpt_base.prompt</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 19:34:12</sys_created_on>
+        <sys_id>a9bb55bc47b22110acf69a21336d4312</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_648117_chatgpt_base.prompt</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_security_acl_a9bb55bc47b22110acf69a21336d4312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 19:35:36</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_security_acl_a9bb55bc47b22110acf69a21336d4312</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition table="x_648117_chatgpt_base.prompt">stateNOT INready,processing,complete,cancelled^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow list_edit for prompt in x_648117_chatgpt_base, for users with role x_648117_chatgpt.user, and if the ACL condition (stateNOT INready,processing,complete,cancelled^EQ) evaluates to true.</description><name>x_648117_chatgpt_base.prompt</name><operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-11 19:34:12</sys_created_on><sys_id>a9bb55bc47b22110acf69a21336d4312</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_648117_chatgpt_base.prompt</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_security_acl_a9bb55bc47b22110acf69a21336d4312</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-11 19:35:36</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1307047081</payload_hash>
+        <record_name>x_648117_chatgpt_base.prompt</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 19:35:36</sys_created_on>
+        <sys_id>e60cddbc47b22110acf69a21336d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1880c4fcf010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 19:35:36</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>ee0cddbc0ab22110ddc9c07bce44f931</update_guid>
+        <update_guid_history>ee0cddbc0ab22110ddc9c07bce44f931:1307047081,b4dbd9bc25b22110ca0b9f13c21943c8:-891490662,b1bb55bcc7b22110d268a1fa87bb4f19:1357754703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 21:31:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>ac30c4ac4ae546158c7a588d8594fb21</sys_id>
+        <sys_metadata>a9bb55bc47b22110acf69a21336d4312</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_648117_chatgpt_base.prompt</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent display_value="Prompt">279d39f387e625101fd74336cebb35ab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a9bb55bc47b22110acf69a21336d4312</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a9bb55bc47b22110acf69a21336d4312">e60cddbc47b22110acf69a21336d4332</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 21:31:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

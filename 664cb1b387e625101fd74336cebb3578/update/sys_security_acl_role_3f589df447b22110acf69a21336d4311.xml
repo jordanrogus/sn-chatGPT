@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 19:19:35</sys_created_on>
+        <sys_id>3f589df447b22110acf69a21336d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.648117.chatgpt.*.x_648117_chatgpt.task_user</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_security_acl display_value="x.648117.chatgpt.*">62581df4d3b22110182592738bbc039f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3f589df447b22110acf69a21336d4311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 19:19:35</sys_updated_on>
+        <sys_user_role display_value="x_648117_chatgpt.task_user" name="x_648117_chatgpt.task_user">f137dab387aa25101fd74336cebb356e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

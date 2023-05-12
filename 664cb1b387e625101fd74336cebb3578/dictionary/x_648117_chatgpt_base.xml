@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="ccdc3db387e625101fd74336cebb3583" label="ChatGPT Prompt" max_length="40" name="x_648117_chatgpt_base" type="collection">
+    <element audit="true" db_object_id="ccdc3db387e625101fd74336cebb3583" label="ChatGPT Prompt" max_length="40" name="x_648117_chatgpt_base" text_index="true" type="collection">
+        <element label="Completion Tokens" max_length="40" name="completion_tokens" read_only="true" type="integer"/>
         <element attributes="readonly_clickthrough=true" label="Conversation" max_length="32" name="conversation" read_only="true" reference="x_648117_chatgpt_chatgpt_conversation" type="reference"/>
+        <element default="0" hint="Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim" label="Frequency Penalty" mandatory="true" max_length="40" name="frequency_penalty" type="float"/>
+        <element choice="1" default="javascript: gs.getProperty('x_648117_chatgpt.chat_completions_default_model');" hint="OpenAPI model to use to generate a response" label="Model" mandatory="true" max_length="40" name="model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="gpt-4" sequence="10" value="gpt-4"/>
+                <element inactive_on_update="false" label="gpt-4-0314" sequence="20" value="gpt-4-0314"/>
+                <element inactive_on_update="false" label="gpt-4-32k" sequence="30" value="gpt-4-32k"/>
+                <element inactive_on_update="false" label="gpt-4-32k-0314" sequence="40" value="gpt-4-32k-0314"/>
+                <element inactive_on_update="false" label="gpt-3.5-turbo" sequence="50" value="gpt-3.5-turbo"/>
+                <element inactive_on_update="false" label="gpt-3.5-turbo-0301" sequence="60" value="gpt-3.5-turbo-0301"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element label="Prompt" max_length="4000" name="prompt" type="string"/>
+        <element default="0" hint="Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics" label="Presence Penalty" mandatory="true" max_length="40" name="presence_penalty" type="float"/>
+        <element label="Prompt" mandatory="true" max_length="4000" name="prompt" type="string"/>
+        <element label="Prompt Tokens" max_length="40" name="prompt_tokens" read_only="true" type="integer"/>
         <element label="Response" max_length="20000" name="response" read_only="true" type="string"/>
         <element choice="1" default="draft" label="State" mandatory="true" max_length="40" name="state" read_only="true" type="choice">
             <choice>
@@ -14,7 +28,10 @@
                 <element inactive_on_update="false" label="Error" sequence="60" value="error"/>
             </choice>
         </element>
-        <element label="Submitter" mandatory="true" max_length="32" name="submitter" read_only="true" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Submitter" mandatory="true" max_length="32" name="submitter" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" hint="The persona you would like the model to take on for its response to your prompt.&#13;&#10;&#13;&#10;If empty the default OpenAPI system persona will be used" label="System Persona" max_length="40" name="system_user" type="string"/>
+        <element default="1" hint="What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic" label="Temperature" mandatory="true" max_length="40" name="temperature" type="float"/>
+        <element label="Total Tokens" max_length="40" name="total_tokens" read_only="true" type="integer"/>
         <index name="index">
             <element name="conversation"/>
         </index>

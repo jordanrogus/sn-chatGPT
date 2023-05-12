@@ -58,9 +58,9 @@
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_dictionary_x_648117_chatgpt_chatgpt_conversation_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-11 08:49:12</sys_updated_on>
+        <sys_updated_on>2023-05-12 18:42:41</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>false</text_index>
+        <text_index>true</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_648117_chatgpt_chatgpt_task">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>ChatGPT - x_648117_chatgpt_chatgpt_task</name>
+        <roles/>
+        <source_table>x_648117_chatgpt_chatgpt_task</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 19:19:37</sys_created_on>
+        <sys_id>98689df447b22110acf69a21336d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChatGPT - x_648117_chatgpt_chatgpt_task</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_search_source_98689df447b22110acf69a21336d43a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 19:19:37</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=98689df447b22110acf69a21336d43a5"/>
+</record_update>

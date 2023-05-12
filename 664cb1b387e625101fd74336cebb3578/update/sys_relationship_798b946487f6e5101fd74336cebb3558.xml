@@ -5,7 +5,7 @@
         <basic_apply_to>x_648117_chatgpt_base</basic_apply_to>
         <basic_query_from>x_648117_chatgpt_base</basic_query_from>
         <insert_callback/>
-        <name>Prompts From Same Conversation</name>
+        <name>Conversation History</name>
         <query_from/>
         <query_with><![CDATA[(function refineQuery(current, parent) {
 
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-10 20:16:49</sys_created_on>
         <sys_id>798b946487f6e5101fd74336cebb3558</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Prompts From Same Conversation</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Conversation History</sys_name>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_relationship_798b946487f6e5101fd74336cebb3558</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-10 22:02:40</sys_updated_on>
+        <sys_updated_on>2023-05-11 20:32:34</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=798b946487f6e5101fd74336cebb3558"/>
 </record_update>
