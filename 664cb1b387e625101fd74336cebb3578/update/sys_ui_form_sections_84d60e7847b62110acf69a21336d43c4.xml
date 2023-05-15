@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-11 22:42:30</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>58d60e7847b62110acf69a21336d43c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_648117_chatgpt_chatgpt_conversation" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">84d60e7847b62110acf69a21336d43c4</sys_ui_form>
-            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_648117_chatgpt_chatgpt_conversation" sys_domain="global" view="Default view">c4d60e7847b62110acf69a21336d43c3</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-11 22:42:30</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_648117_chatgpt_chatgpt_conversation</name>
             <roles/>

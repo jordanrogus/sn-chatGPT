@@ -2,21 +2,21 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">a2581df47bb2211023d37c6a965f939a</canvas>
         <component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component>
-        <component_props>{"listTitle":"","table":"x_648117_chatgpt_base","query":"stateNOT INcomplete,cancelled","columns":"","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props>
+        <component_props>{"listTitle":"","table":"x_648117_chatgpt_chatgpt_conversation","query":"conversation_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe","columns":"number,sys_created_on","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props>
         <h>15</h>
         <name/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-11 19:19:32</sys_created_on>
         <sys_id>ae581df4d7b22110ff179b6095c0b29b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>par_dashboard_widget_ae581df4d7b22110ff179b6095c0b29b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-12 21:16:38</sys_updated_on>
+        <sys_updated_on>2023-05-15 20:58:16</sys_updated_on>
         <visualization/>
         <w>12</w>
         <x>0</x>
