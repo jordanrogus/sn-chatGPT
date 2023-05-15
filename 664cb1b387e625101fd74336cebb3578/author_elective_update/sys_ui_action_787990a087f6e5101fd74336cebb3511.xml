@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Inactivated as related list used in lieu of embedded list to control creation of prompts in a conversation</comments>
+        <condition>current.canWrite() &amp;&amp; !current.isNewRecord();</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Add Prompt</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var newPrompt = createNewPrompt(current.getUniqueValue());
+
+var url = '/x_648117_chatgpt_base.do?sys_id=' + newPrompt;
+action.setRedirectURL(url);
+
+function createNewPrompt(conversation){
+	var grPrompt = new GlideRecord('x_648117_chatgpt_base');
+	grPrompt.newRecord();
+	grPrompt.conversation = conversation;
+	grPrompt.submitter = gs.getUserID();
+	return grPrompt.insert();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-10 20:07:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>787990a087f6e5101fd74336cebb3511</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Add Prompt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_ui_action_787990a087f6e5101fd74336cebb3511</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 20:43:24</sys_updated_on>
+        <table>x_648117_chatgpt_chatgpt_conversation</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_ui_action_787990a087f6e5101fd74336cebb3511</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;Inactivated as related list used in lieu of embedded list to control creation of prompts in a conversation&lt;/comments&gt;&lt;condition&gt;current.canWrite() &amp;amp;&amp;amp; !current.isNewRecord();&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;true&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Add Prompt&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var newPrompt = createNewPrompt(current.getUniqueValue());
+
+var url = '/x_648117_chatgpt_base.do?sys_id=' + newPrompt;
+action.setRedirectURL(url);
+
+function createNewPrompt(conversation){
+	var grPrompt = new GlideRecord('x_648117_chatgpt_base');
+	grPrompt.newRecord();
+	grPrompt.conversation = conversation;
+	grPrompt.submitter = gs.getUserID();
+	return grPrompt.insert();
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-10 20:07:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;787990a087f6e5101fd74336cebb3511&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add Prompt&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ChatGPT" source="x_648117_chatgpt"&gt;664cb1b387e625101fd74336cebb3578&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChatGPT"&gt;664cb1b387e625101fd74336cebb3578&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_787990a087f6e5101fd74336cebb3511&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-15 20:43:24&lt;/sys_updated_on&gt;&lt;table&gt;x_648117_chatgpt_chatgpt_conversation&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-364751366</payload_hash>
+        <record_name>Add Prompt</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-15 20:43:24</sys_created_on>
+        <sys_id>eae1de0a47322110acf69a21336d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882127515f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 20:43:24</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>26e1de0a123221104318764a425a0325</update_guid>
+        <update_guid_history>26e1de0a123221104318764a425a0325:-364751366,2bc1030575362110d6e6a69fb44e7925:-1522825080,997a98e073f6e51055da7a0d1ec3bdff:-620694208,c8d95ca063f6e5109647a03338bf841f:-805446085,0eb954a0c5f6e510e8e156c63bd486eb:469336175</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-15 20:51:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>68f829afe386446a987b81c067e52284</sys_id>
+        <sys_metadata>787990a087f6e5101fd74336cebb3511</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Prompt</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent display_value="ChatGPT Conversation">0ccf806487b6e5101fd74336cebb35bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_ui_action_787990a087f6e5101fd74336cebb3511</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_787990a087f6e5101fd74336cebb3511">eae1de0a47322110acf69a21336d4325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 20:51:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Inactivated as related list used in lieu of embedded list to control creation of prompts in a conversation&#13;
+&#13;
+Hides the prompts related list in just native as that is handled via embdedd list</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Prompts Related List in Native View</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   g_form.hideRelatedList('REL:3250cb4147362110acf69a21336d4364');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 21:35:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18d08b8147362110acf69a21336d4362</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Hide Prompts Related List in Native View</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_script_client_18d08b8147362110acf69a21336d4362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 20:42:52</sys_updated_on>
+        <table>x_648117_chatgpt_chatgpt_conversation</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_script_client_18d08b8147362110acf69a21336d4362</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Inactivated as related list used in lieu of embedded list to control creation of prompts in a conversation&amp;#13;
+&amp;#13;
+Hides the prompts related list in just native as that is handled via embdedd list&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hide Prompts Related List in Native View&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   g_form.hideRelatedList('REL:3250cb4147362110acf69a21336d4364');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-12 21:35:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;18d08b8147362110acf69a21336d4362&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Prompts Related List in Native View&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ChatGPT" source="x_648117_chatgpt"&gt;664cb1b387e625101fd74336cebb3578&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChatGPT"&gt;664cb1b387e625101fd74336cebb3578&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_18d08b8147362110acf69a21336d4362&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-15 20:42:52&lt;/sys_updated_on&gt;&lt;table&gt;x_648117_chatgpt_chatgpt_conversation&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-100362017</payload_hash>
+        <record_name>Hide Prompts Related List in Native View</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-15 20:42:52</sys_created_on>
+        <sys_id>32c15a0a47322110acf69a21336d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882126d3900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 20:42:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b6c15a0a49322110e13ec43b217074ba</update_guid>
+        <update_guid_history>b6c15a0a49322110e13ec43b217074ba:-100362017,1d81d60a9c3221108d4bf9a87ab1981f:-1853888134,76310b817f362110fac7175801122d06:746600423,7d118781683621105d44dfd02f040c42:396778529,aa01c38122362110936851e61c2b7203:1159781429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-15 20:50:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4fdaf81178404c609aaf5132ef608840</sys_id>
+        <sys_metadata>18d08b8147362110acf69a21336d4362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Prompts Related List in Native View</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent display_value="ChatGPT Conversation">0ccf806487b6e5101fd74336cebb35bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_18d08b8147362110acf69a21336d4362</sys_update_name>
+        <sys_update_version display_value="sys_script_client_18d08b8147362110acf69a21336d4362">32c15a0a47322110acf69a21336d43bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 20:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
