@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>OPEN_CONVERSATION</event_name>
+        <interfaces/>
+        <label>Open Conversation</label>
+        <props>[{"name":"sysid","fieldType":"string","label":"Sys ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ {
+  "message" : "Sys ID",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 20:55:06</sys_created_on>
+        <sys_id>c0512f2847472110acf69a21336d4391</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open Conversation</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_ux_event_c0512f2847472110acf69a21336d4391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 20:55:22</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=c0512f2847472110acf69a21336d4391"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_ux_event_c0512f2847472110acf69a21336d4391</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>OPEN_CONVERSATION</event_name><interfaces/><label>Open Conversation</label><props>[{"name":"sysid","fieldType":"string","label":"Sys ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props><required_translations>[ {
+  "message" : "Sys ID",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-23 20:55:06</sys_created_on><sys_id>c0512f2847472110acf69a21336d4391</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Open Conversation</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_ux_event_c0512f2847472110acf69a21336d4391</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-23 20:55:22</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=c0512f2847472110acf69a21336d4391"/></record_update>]]></payload>
+        <payload_hash>1040198229</payload_hash>
+        <record_name>Open Conversation</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 20:55:23</sys_created_on>
+        <sys_id>04612f2847472110acf69a21336d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1884a6526d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 20:55:23</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>0c612f285b472110693e398be0978b97</update_guid>
+        <update_guid_history>0c612f285b472110693e398be0978b97:1040198229,c0512f28fb4721105e2e7b69a10bf393:1984158652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 21:00:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>005b77a895404ad68003212070d4c944</sys_id>
+        <sys_metadata>c0512f2847472110acf69a21336d4391</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Conversation</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_ux_event_c0512f2847472110acf69a21336d4391</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_c0512f2847472110acf69a21336d4391">04612f2847472110acf69a21336d4398</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 21:00:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

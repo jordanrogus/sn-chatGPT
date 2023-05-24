@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 18:44:44</sys_created_on>
+        <sys_id>5273c7e447c32110acf69a21336d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_appl_dot_net.snc_internal</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_security_acl display_value="">e34307e447c32110acf69a21336d439b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5273c7e447c32110acf69a21336d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 18:44:44</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>9a73c7ac47832110acf69a21336d43db</transaction_id>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_security_acl_role_5273c7e447c32110acf69a21336d4358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-23 18:44:44</sys_created_on><sys_id>5273c7e447c32110acf69a21336d4358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_ci_appl_dot_net.snc_internal</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_security_acl display_value="">e34307e447c32110acf69a21336d439b</sys_security_acl><sys_update_name>sys_security_acl_role_5273c7e447c32110acf69a21336d4358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-23 18:44:44</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>9a73c7ac47832110acf69a21336d43db</transaction_id></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-984280540</payload_hash>
+        <record_name>cmdb_ci_appl_dot_net.snc_internal</record_name>
+        <reverted_from/>
+        <source>f5c8d520871121101fd74336cebb352e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-02-25 11:08:42</sys_created_on>
+        <sys_id>7bd3cfe447c32110acf69a21336d4383</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1868842c2900000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>3bd3cfe48ec32110eb593dca7a142f83</update_guid>
+        <update_guid_history>3bd3cfe48ec32110eb593dca7a142f83:-984280540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cmdb_ci_appl_dot_net.snc_internal">7bd3cfe447c32110acf69a21336d4385</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 18:46:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>137cfba8889e436481a1fd2aee1c4890</sys_id>
+        <sys_metadata>5273c7e447c32110acf69a21336d4358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_appl_dot_net.snc_internal</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_5273c7e447c32110acf69a21336d4358</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_5273c7e447c32110acf69a21336d4358">7bd3cfe447c32110acf69a21336d4383</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 18:46:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
