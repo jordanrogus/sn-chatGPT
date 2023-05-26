@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>conversation_owner-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:46</sys_created_on>
+        <sys_id>9245eee547032110acf69a21336d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>conversation_owner-FieldValue</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_9245eee547032110acf69a21336d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 19:06:46</sys_updated_on>
+        <view_config display_value="My Conversations List Screen View Config">5645eee547032110acf69a21336d4373</view_config>
+        <view_template_slot display_value="text_07">e87845b041275010f877183fc9b8be13</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_sg_view_config_element_9245eee547032110acf69a21336d43bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>conversation_owner-FieldValue</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-26 19:06:46</sys_created_on><sys_id>9245eee547032110acf69a21336d43bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>conversation_owner-FieldValue</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_sg_view_config_element_9245eee547032110acf69a21336d43bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-26 19:06:46</sys_updated_on><view_config display_value="My Conversations List Screen View Config">5645eee547032110acf69a21336d4373</view_config><view_template_slot display_value="text_07">e87845b041275010f877183fc9b8be13</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>-577606503</payload_hash>
+        <record_name>conversation_owner-FieldValue</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:46</sys_created_on>
+        <sys_id>da45eee547032110acf69a21336d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1885974cb960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 19:06:46</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>1245eee5fb0321105bdaa2e035e66bbe</update_guid>
+        <update_guid_history>1245eee5fb0321105bdaa2e035e66bbe:-577606503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:22:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>01c5da4b369d492e8003293579966f89</sys_id>
+        <sys_metadata>9245eee547032110acf69a21336d43bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>conversation_owner-FieldValue</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_9245eee547032110acf69a21336d43bd</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_9245eee547032110acf69a21336d43bd">da45eee547032110acf69a21336d43be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:22:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

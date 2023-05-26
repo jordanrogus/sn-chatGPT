@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Prompts for Conversation</name>
+        <offline_query_condition table="x_648117_chatgpt_base">conversation=<item endquery="false" field="conversation" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </offline_query_condition>
+        <offline_query_condition_script/>
+        <query_condition table="x_648117_chatgpt_base">conversation={{Prompt}}<item endquery="false" field="conversation" goto="false" newquery="false" operator="=" or="false" value="{{Prompt}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:46</sys_created_on>
+        <sys_id>da45eee547032110acf69a21336d4372</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Prompts for Conversation</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_sg_data_item_da45eee547032110acf69a21336d4372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:14:40</sys_updated_on>
+        <table>x_648117_chatgpt_base</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=da45eee547032110acf69a21336d4372"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_sg_data_item_da45eee547032110acf69a21336d4372</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>Prompts for Conversation</name><offline_query_condition table="x_648117_chatgpt_base">conversation=<item endquery="false" field="conversation" goto="false" newquery="false" operator="=" or="false" value=""/></offline_query_condition><offline_query_condition_script/><query_condition table="x_648117_chatgpt_base">conversation={{Prompt}}<item endquery="false" field="conversation" goto="false" newquery="false" operator="=" or="false" value="{{Prompt}}"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-26 19:06:46</sys_created_on><sys_id>da45eee547032110acf69a21336d4372</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Prompts for Conversation</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_sg_data_item_da45eee547032110acf69a21336d4372</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-26 20:14:40</sys_updated_on><table>x_648117_chatgpt_base</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=da45eee547032110acf69a21336d4372"/></record_update>]]></payload>
+        <payload_hash>192781014</payload_hash>
+        <record_name>Prompts for Conversation</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:14:41</sys_created_on>
+        <sys_id>cdd4fea947432110acf69a21336d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18859b2f7db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:14:41</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>01d43a699b432110adcb00a70e6c6097</update_guid>
+        <update_guid_history>01d43a699b432110adcb00a70e6c6097:192781014,45543a69b0432110cf89089deda5c492:1516965878,6b44b6a937432110ecae9428c7b0ab0f:729177846,f1917ea55943211023af40b1694bd863:1880918796,2261bea50b432110ed85b211ef8fc22e:1437143688,8bb56e29820321104850d80bb244f118:800633435,d745a229f603211040a1b121f20bfb55:2090454176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:21:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>2923531b4a1f4fa29e7933f2edca8591</sys_id>
+        <sys_metadata>da45eee547032110acf69a21336d4372</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prompts for Conversation</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_da45eee547032110acf69a21336d4372</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_da45eee547032110acf69a21336d4372">cdd4fea947432110acf69a21336d439e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:21:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="DELETE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <max_offline_rows>500</max_offline_rows>
+        <name>My Prompts Item Stream Segment</name>
+        <order>0</order>
+        <screen/>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:45</sys_created_on>
+        <sys_id>4a45aee547032110acf69a21336d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Prompts Item Stream Segment</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_4a45aee547032110acf69a21336d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 19:06:45</sys_updated_on>
+    </sys_sg_item_stream_segment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_sg_item_stream_segment_4a45aee547032110acf69a21336d43f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment"><sys_sg_item_stream_segment action="INSERT_OR_UPDATE"><empty_state/><interleave_order_direction>asc</interleave_order_direction><max_offline_rows>500</max_offline_rows><name>My Prompts Item Stream Segment</name><order>0</order><screen/><sys_class_name>sys_sg_item_stream_segment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-26 19:06:45</sys_created_on><sys_id>4a45aee547032110acf69a21336d43f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Prompts Item Stream Segment</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_sg_item_stream_segment_4a45aee547032110acf69a21336d43f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-26 19:06:45</sys_updated_on></sys_sg_item_stream_segment></record_update>]]></payload>
+        <payload_hash>770674707</payload_hash>
+        <record_name>My Prompts Item Stream Segment</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:20:05</sys_created_on>
+        <sys_id>dd58222d47032110acf69a21336d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1885980fbd50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 19:20:05</sys_updated_on>
+        <type>Screen segment</type>
+        <update_guid>aa452229b3032110cdb32505e4daa5ca</update_guid>
+        <update_guid_history>aa452229b3032110cdb32505e4daa5ca:1677326446,aa452229b3032110cdb32505e4daa5ca:1677326446</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:28:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_stream_segment">sys_sg_item_stream_segment</sys_db_object>
+        <sys_id>0a120825dfc84b699e47212d97473309</sys_id>
+        <sys_metadata>4a45aee547032110acf69a21336d43f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Prompts Item Stream Segment</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_sg_item_stream_segment_4a45aee547032110acf69a21336d43f5</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_stream_segment_4a45aee547032110acf69a21336d43f5">dd58222d47032110acf69a21336d4370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:28:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
