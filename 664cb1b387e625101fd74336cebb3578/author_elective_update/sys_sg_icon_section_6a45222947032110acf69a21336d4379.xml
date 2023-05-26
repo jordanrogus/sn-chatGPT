@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="DELETE">
+        <active>true</active>
+        <applets/>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <orientation>vertical</orientation>
+        <required_roles>x_648117_chatgpt.user</required_roles>
+        <row_count/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:47</sys_created_on>
+        <sys_id>6a45222947032110acf69a21336d4379</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ChatGPT Conversation</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_sg_icon_section_6a45222947032110acf69a21336d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:23:16</sys_updated_on>
+        <table/>
+        <title>ChatGPT Conversation</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_icon_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_sg_icon_section_6a45222947032110acf69a21336d4379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section"><sys_sg_icon_section action="INSERT_OR_UPDATE"><active>true</active><applets/><card_size/><column_count/><custom_height/><custom_width/><data_item/><display_feed_count>true</display_feed_count><hide_header>false</hide_header><hide_section_if_empty>false</hide_section_if_empty><is_custom_size>false</is_custom_size><is_hidden_preference_name/><orientation>vertical</orientation><required_roles>x_648117_chatgpt.user</required_roles><row_count/><sys_class_name>sys_sg_icon_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-26 19:06:47</sys_created_on><sys_id>6a45222947032110acf69a21336d4379</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ChatGPT Conversation</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_sg_icon_section_6a45222947032110acf69a21336d4379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-26 20:23:16</sys_updated_on><table/><title>ChatGPT Conversation</title><visible_condition/><wide_column_count/></sys_sg_icon_section></record_update>]]></payload>
+        <payload_hash>1454055220</payload_hash>
+        <record_name>ChatGPT Conversation</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:23:16</sys_created_on>
+        <sys_id>f2c6f66d47432110acf69a21336d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18859bad39a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:23:16</sys_updated_on>
+        <type>Legacy icon section</type>
+        <update_guid>bac6f66d17432110ffa405c043fffa03</update_guid>
+        <update_guid_history>bac6f66d17432110ffa405c043fffa03:1454055220,6e452229e30321102232d27035176bc6:-1384036196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:27:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_icon_section">sys_sg_icon_section</sys_db_object>
+        <sys_id>135952b076034d7e82caa446149b8ae9</sys_id>
+        <sys_metadata>6a45222947032110acf69a21336d4379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChatGPT Conversation</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_sg_icon_section_6a45222947032110acf69a21336d4379</sys_update_name>
+        <sys_update_version display_value="sys_sg_icon_section_6a45222947032110acf69a21336d4379">f2c6f66d47432110acf69a21336d4304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:27:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="New Button (My Prompts)">c645eee547032110acf69a21336d431c</button>
+        <item_parameter display_value="My Prompts submitter">0a45eee547032110acf69a21336d431a</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:45</sys_created_on>
+        <sys_id>c245eee547032110acf69a21336d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0a45eee547032110acf69a21336d431a</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_c245eee547032110acf69a21336d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 19:06:45</sys_updated_on>
+        <ui_parameter display_value="Submitter">ca45eee547032110acf69a21336d4321</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_sg_action_param_map_c245eee547032110acf69a21336d4323</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="New Button (My Prompts)">c645eee547032110acf69a21336d431c</button><item_parameter display_value="My Prompts submitter">0a45eee547032110acf69a21336d431a</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-26 19:06:45</sys_created_on><sys_id>c245eee547032110acf69a21336d4323</sys_id><sys_mod_count>0</sys_mod_count><sys_name>0a45eee547032110acf69a21336d431a</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_sg_action_param_map_c245eee547032110acf69a21336d4323</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-26 19:06:45</sys_updated_on><ui_parameter display_value="Submitter">ca45eee547032110acf69a21336d4321</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>-1805548597</payload_hash>
+        <record_name>0a45eee547032110acf69a21336d431a</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:49</sys_created_on>
+        <sys_id>cb45622947032110acf69a21336d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1885974d7710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 19:06:49</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>43456229c6032110bb14fc5dd8e2ceef</update_guid>
+        <update_guid_history>43456229c6032110bb14fc5dd8e2ceef:-1805548597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:21:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>029f1c0d0dcc4a8aa5a95352baafb284</sys_id>
+        <sys_metadata>c245eee547032110acf69a21336d4323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0a45eee547032110acf69a21336d431a</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_c245eee547032110acf69a21336d4323</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_c245eee547032110acf69a21336d4323">cb45622947032110acf69a21336d43ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 19:21:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

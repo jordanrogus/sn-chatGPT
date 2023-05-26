@@ -67,7 +67,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     }, {
       "elementId" : "container_2",
       "elementLabel" : "Button Container",
@@ -210,7 +210,7 @@
           "extensionPoints" : [ ],
           "isNonDestructive" : false,
           "items" : [ ],
-          "styles" : { }
+          "styles" : null
         }, {
           "elementId" : "button_4",
           "elementLabel" : "Cancelled Button",
@@ -317,7 +317,7 @@
           "extensionPoints" : [ ],
           "isNonDestructive" : false,
           "items" : [ ],
-          "styles" : { }
+          "styles" : null
         }, {
           "elementId" : "button_5",
           "elementLabel" : "Completed Button",
@@ -424,7 +424,7 @@
           "extensionPoints" : [ ],
           "isNonDestructive" : false,
           "items" : [ ],
-          "styles" : { }
+          "styles" : null
         } ],
         "layout" : {
           "default" : {
@@ -448,137 +448,11 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : {
-        "width" : "100%"
-      }
+      "styles" : null
     }, {
       "elementId" : "list__simple_1",
       "elementLabel" : "List - Simple - Prompts",
       "propertyValues" : {
-        "hideUnnecessaryRowSelectors" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "limit" : {
-          "type" : "JSON_LITERAL",
-          "value" : 10
-        },
-        "hideLastRefreshedText" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideColumnReorder" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideMenuButton" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideHighlightedValues" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideRowSelector" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideMultiEdit" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "recordSelectedTable" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "hideCheckboxHover" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideHeader" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideLastPage" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hidePages" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideRowCount" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "query" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "hideFilterPanel" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideHighlightContent" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideLimitSelector" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideEmptyStateImage" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideRefreshButton" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideQuickEdit" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "listTitle" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "chatgpt_my_prompts_1", "output" ]
-          }
-        },
-        "groupByField" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "fixedQuery" : {
-          "type" : "STATE_BINDING",
-          "binding" : {
-            "address" : [ "prompt_filter" ]
-          }
-        },
-        "hideDotwalk" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideDeclarativeActions" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideRange" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "page" : {
-          "type" : "JSON_LITERAL",
-          "value" : 1
-        },
-        "hidePanelRestore" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideDBViews" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
         "highlightedValueConfigId" : {
           "type" : "JSON_LITERAL",
           "value" : ""
@@ -607,19 +481,15 @@
           "type" : "JSON_LITERAL",
           "value" : true
         },
-        "hidePanelAdvanced" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
         "maxColumns" : {
           "type" : "JSON_LITERAL",
           "value" : 6
         },
-        "hidePreviousPage" : {
+        "limit" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : 10
         },
-        "hidePanelFooter" : {
+        "hideLastRefreshedText" : {
           "type" : "JSON_LITERAL",
           "value" : false
         },
@@ -627,49 +497,49 @@
           "type" : "JSON_LITERAL",
           "value" : true
         },
-        "hidePagination" : {
+        "hideColumnReorder" : {
           "type" : "JSON_LITERAL",
           "value" : true
-        },
-        "hidePanelConditionDelete" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
         },
         "table" : {
           "type" : "JSON_LITERAL",
           "value" : "x_648117_chatgpt_base"
         },
+        "hideHighlightedValues" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRowSelector" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
         "hideColumnGrouping" : {
           "type" : "JSON_LITERAL",
           "value" : true
         },
-        "hideCellFilter" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideNextPage" : {
+        "hideHeader" : {
           "type" : "JSON_LITERAL",
           "value" : false
-        },
-        "recordSelectedSysId" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "recordSelectedView" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "hidePanel" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
         },
         "hideColumnResizing" : {
           "type" : "JSON_LITERAL",
           "value" : true
         },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
         "refreshRequested" : {
           "type" : "JSON_LITERAL",
           "value" : null
+        },
+        "hideHighlightContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideEmptyStateImage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
         },
         "highlightContent" : {
           "type" : "JSON_LITERAL",
@@ -678,29 +548,41 @@
             "color" : ""
           }
         },
-        "hideSelectAll" : {
+        "hideRefreshButton" : {
           "type" : "JSON_LITERAL",
-          "value" : true
+          "value" : false
+        },
+        "listTitle" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "chatgpt_my_prompts_1", "output" ]
+          }
+        },
+        "groupByField" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "fixedQuery" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "prompt_filter" ]
+          }
         },
         "hideTitle" : {
           "type" : "JSON_LITERAL",
           "value" : false
         },
-        "hideColumnSorting" : {
+        "hideDotwalk" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
-        "hideFirstPage" : {
+        "hideColumnSorting" : {
           "type" : "JSON_LITERAL",
           "value" : false
         },
         "overrideWordWrapUserPref" : {
           "type" : "JSON_LITERAL",
           "value" : false
-        },
-        "recordSelectedQuery" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
         },
         "hidePersonalization" : {
           "type" : "JSON_LITERAL",
@@ -802,7 +684,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     } ],
     "layout" : {
       "default" : {
@@ -826,9 +708,7 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : null
 }, {
   "elementId" : "rich_text_3",
   "elementLabel" : "Spacing",
@@ -857,7 +737,7 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : { }
+  "styles" : null
 }, {
   "elementId" : "container_4",
   "elementLabel" : "Conversations",
@@ -922,7 +802,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     }, {
       "elementId" : "data_set_1",
       "elementLabel" : "Data set - Conversations",
@@ -1009,7 +889,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     } ],
     "layout" : {
       "default" : {
@@ -1033,12 +913,548 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : null
+}, {
+  "elementId" : "container_5",
+  "elementLabel" : "Gantt",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "rich_text_5",
+      "elementLabel" : "Rich text 5",
+      "propertyValues" : {
+        "html" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt; color: #f1c40f;\"&gt;Gantt&lt;/span&gt;&lt;/p&gt;",
+            "comment" : ""
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    }, {
+      "elementId" : "gantt_chart_1",
+      "elementLabel" : "Gantt Chart 1",
+      "propertyValues" : {
+        "zoomLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "autofit"
+        },
+        "enableDragToReorderColumns" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "weekends" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "dateFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "YYYY-MM-DD"
+        },
+        "endDate" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "canResizeTask" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "toolbarSubtitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Toolbar Subtitle"
+        },
+        "rowGroup" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "enableReorderRows" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "reorderRowsLabelSourceColumn" : {
+          "type" : "JSON_LITERAL",
+          "value" : "text"
+        },
+        "colorByColumn" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "displayChildTasksCount" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "holidays" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "readonly" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "enableReorderColumns" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "sortBy" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "links" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "enableRowCopyPaste" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "weekStartsOn" : {
+          "type" : "JSON_LITERAL",
+          "value" : "0"
+        },
+        "barStyles" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "showExternalDependency" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tasks" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ {
+            "id" : "test_column_1",
+            "_expanded" : true,
+            "text" : {
+              "value" : "Some row value",
+              "displayValue" : "Some row display value"
+            },
+            "isCritical" : true,
+            "startDate" : {
+              "value" : "05-25-23",
+              "displayValue" : "05-25-23"
+            },
+            "endDate" : {
+              "value" : "07-28-23",
+              "displayValue" : "07-28-23"
+            },
+            "percentDone" : {
+              "value" : 50,
+              "displayValue" : "50%"
+            },
+            "priority" : {
+              "value" : 1,
+              "displayValue" : "High Priority"
+            },
+            "timelineIndicatorDetails" : [ {
+              "icon" : "lightbulb",
+              "color" : "Red",
+              "label" : "t01"
+            } ],
+            "storyPoint" : {
+              "value" : 10,
+              "displayValue" : "10 points"
+            }
+          } ]
+        },
+        "rowHeight" : {
+          "type" : "JSON_LITERAL",
+          "value" : 40
+        },
+        "timeZone" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "colorByMap" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "canMoveTask" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "displayHelpButton" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "baselinePopoverConfig" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "showStartEndTimeline" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "displayAddTaskBelowinTimeline" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showBarLabel" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "toolbarTitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Gantt Chart"
+        },
+        "showCriticalPath" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showSwitchLayout" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "enableCellContextMenuOnRightClick" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "baselinesInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "showBaselinesToggle" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "enableResetColumns" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "enableToolbar" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "startDate" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "manageColumnPersonalization" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRowCountOnToolbar" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "enableColorBy" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "columns" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ {
+            "name" : "text",
+            "label" : "Name",
+            "type" : "text",
+            "hidden" : false,
+            "hideable" : false,
+            "editable" : true,
+            "resize" : true,
+            "cellContextMenu" : true
+          }, {
+            "name" : "priority",
+            "label" : "Priority",
+            "type" : "number",
+            "hidden" : false,
+            "editable" : true
+          }, {
+            "name" : "storyPoint",
+            "label" : "Story Points",
+            "type" : "number",
+            "hidden" : false,
+            "editable" : true,
+            "aggregation" : {
+              "aggregateType" : "SUM"
+            }
+          }, {
+            "name" : "startDate",
+            "label" : "Start Date",
+            "type" : "date",
+            "hidden" : false,
+            "editable" : true
+          }, {
+            "name" : "endDate",
+            "label" : "End Date",
+            "type" : "date",
+            "hidden" : false,
+            "editable" : true
+          } ]
+        },
+        "zoomLevelOptions" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "showDependenciesLines" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "enableTimelineIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "allowedDependencyTypes" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "locale" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "canShowBaselines" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "canShowCriticalPath" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "dateTimeFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "YYYY-MM-DD HH:mm:ss"
+        },
+        "recordsFilter" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "configurationType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "basic"
+        },
+        "settingsPrimaryPanel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "columns"
+        },
+        "enableRowSelectionCheckbox" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "displayAdditionalTimelinesUnit" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "displayIndentinTimeline" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "customLegendItems" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "hasHierarchy" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "enableColumnsPinning" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "toolbarPlacement" : {
+          "type" : "JSON_LITERAL",
+          "value" : "top"
+        },
+        "layout" : {
+          "type" : "JSON_LITERAL",
+          "value" : "default"
+        },
+        "taskLayers" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "rowContextMenuItems" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ { } ]
+        },
+        "cellContextMenuItems" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ { } ]
+        },
+        "displaySettingsHelpPanel" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "calendarData" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "gridWidth" : {
+          "type" : "JSON_LITERAL",
+          "value" : 40
+        },
+        "enablePreviewRecordIcon" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "enableRowContextMenu" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "showCurrentTimeline" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "canCreateDependency" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "manageColumnShowHide" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "timelinePopoverConfig" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "6cb15f6dc9c5d9a328b19ac107211f61",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"rich_text_5","styles":{"background":"rgb(var(--now-color--neutral-21))"}},{"element_id":"gantt_chart_1","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+}, {
+  "elementId" : "rich_text_6",
+  "elementLabel" : "Spacing_2",
+  "propertyValues" : {
+    "html" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "",
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+}, {
+  "elementId" : "rich_text_7",
+  "elementLabel" : "Spacing_end",
+  "propertyValues" : {
+    "html" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
 } ]</composition>
         <da_relay_models/>
         <data>[ {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "84ac0df353211010cbc2ddeeff7b12a6",
     "type" : "COMPOSITE"
@@ -1055,6 +1471,7 @@
   },
   "readEvaluationMode" : "EXPLICIT"
 }, {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "18324b6447c32110acf69a21336d4353",
     "type" : "TRANSFORM"
@@ -1079,6 +1496,7 @@
   },
   "readEvaluationMode" : "EAGER"
 }, {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "e6af35d9dbb810106b3982c9689619e5",
     "type" : "COMPOSITE"
@@ -1115,6 +1533,7 @@
         <dispatched_events>399ba2a847432110acf69a21336d43e0,a898aae447432110acf69a21336d4355</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events>7593ebe847472110acf69a21336d434b,bab6832847c32110acf69a21336d432a</handled_events>
         <interactions/>
         <interfaces/>
@@ -1195,7 +1614,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"container_3","styles":{}},{"element_id":"rich_text_3","styles":{"height":"50px","width":"100%"}},{"element_id":"container_4","styles":{}}],
+    "items" : [{"element_id":"container_3","styles":{}},{"element_id":"rich_text_3","styles":{"height":"50px","width":"100%"}},{"element_id":"container_4","styles":{}},{"element_id":"rich_text_6","styles":{"height":"50px","width":"100%"}},{"element_id":"container_5","styles":{}},{"element_id":"rich_text_7","styles":{"height":"250px","width":"100%"}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column","display":"flex","grid-template-columns":"1fr 1fr","grid-template-rows":"1fr 1fr","grid-auto-rows":"1fr","grid-auto-columns":"1fr"},
@@ -1215,10 +1634,22 @@
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt; color: #f1c40f;\"&gt;Conversations&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt; color: #f1c40f;\"&gt;Gantt&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "End Date",
+  "comment" : ""
+}, {
   "message" : "Enter a label",
   "comment" : ""
 }, {
+  "message" : "Name",
+  "comment" : ""
+}, {
   "message" : "No content to display",
+  "comment" : ""
+}, {
+  "message" : "Priority",
   "comment" : ""
 }, {
   "message" : "Show Cancelled",
@@ -1228,6 +1659,15 @@
   "comment" : ""
 }, {
   "message" : "Show Open",
+  "comment" : ""
+}, {
+  "message" : "Start Date",
+  "comment" : ""
+}, {
+  "message" : "Story Points",
+  "comment" : ""
+}, {
+  "message" : "t01",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1261,14 +1701,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-23 16:43:08</sys_created_on>
         <sys_id>89a76ae447432110acf69a21336d434f</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_name>ChatGPT SandBox Page</sys_name>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_ux_macroponent_89a76ae447432110acf69a21336d434f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-23 21:13:43</sys_updated_on>
+        <sys_updated_on>2023-05-25 21:59:49</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=89a76ae447432110acf69a21336d434f"/>
 </record_update>

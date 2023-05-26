@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="DELETE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <max_offline_rows>500</max_offline_rows>
+        <name>New screen segment</name>
+        <order>0</order>
+        <screen/>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 19:06:46</sys_created_on>
+        <sys_id>9a45eee547032110acf69a21336d43ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New screen segment</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_9a45eee547032110acf69a21336d43ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:15:13</sys_updated_on>
+    </sys_sg_item_stream_segment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>8e22f7acdbc3ec10ad8dd7c8f4961939</instance_id>
+        <instance_name>dev107202</instance_name>
+        <name>sys_sg_item_stream_segment_9a45eee547032110acf69a21336d43ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment"><sys_sg_item_stream_segment action="INSERT_OR_UPDATE"><empty_state/><interleave_order_direction>asc</interleave_order_direction><max_offline_rows>500</max_offline_rows><name>New screen segment</name><order>0</order><screen/><sys_class_name>sys_sg_item_stream_segment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-26 19:06:46</sys_created_on><sys_id>9a45eee547032110acf69a21336d43ea</sys_id><sys_mod_count>1</sys_mod_count><sys_name>New screen segment</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_sg_item_stream_segment_9a45eee547032110acf69a21336d43ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-26 20:15:13</sys_updated_on></sys_sg_item_stream_segment></record_update>]]></payload>
+        <payload_hash>10914195</payload_hash>
+        <record_name>New screen segment</record_name>
+        <reverted_from/>
+        <source>392bde3b87aa25101fd74336cebb35ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:23:16</sys_created_on>
+        <sys_id>fec6b66d47432110acf69a21336d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18859bad35f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:23:16</sys_updated_on>
+        <type>Screen segment</type>
+        <update_guid>c5f4fea96f432110650a73ddb905f3a7</update_guid>
+        <update_guid_history>c5f4fea96f432110650a73ddb905f3a7:-191580297,c5f4fea96f432110650a73ddb905f3a7:-191580297,5345a22914032110fe6e6ffd5918093b:1706924465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 20:28:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_stream_segment">sys_sg_item_stream_segment</sys_db_object>
+        <sys_id>266dba681809485396763be92f7db101</sys_id>
+        <sys_metadata>9a45eee547032110acf69a21336d43ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New screen segment</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_sg_item_stream_segment_9a45eee547032110acf69a21336d43ea</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_stream_segment_9a45eee547032110acf69a21336d43ea">fec6b66d47432110acf69a21336d43fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 20:28:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
