@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Get Prompt</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var id = request.pathParams['id'];
+	var errorMsg = "";
+
+    if (!id) {
+		errorMsg = gs.getMessage('Missing required path parameter, id');
+        response.setError(new sn_ws_err.BadRequestError(errorMsg));
+        return;
+    }
+	
+	var regExpTestForSysId = new RegExp("[0-9a-f]{32}");
+	
+	if (regExpTestForSysId.test(id) === false) {
+		errorMsg = gs.getMessage('id must be a sys_id');
+        response.setError(new sn_ws_err.BadRequestError(errorMsg));
+        return;
+    }
+	
+	var getPromptGr = new GlideRecord('x_648117_chatgpt_base');
+	if(getPromptGr.get(id)){
+		var body = {};
+		body.number = getPromptGr.getValue('number');
+		body.owner = getPromptGr.getDisplayValue('submitter');
+		body.state = getPromptGr.getValue('state');
+		body.prompt = getPromptGr.getValue('prompt');
+		body.response = getPromptGr.getValue('response');
+		response.setBody(body);
+	} else {
+		errorMsg = gs.getMessage('Prompt with id: {0}, not found', id);
+		response.setError(new sn_ws_err.BadRequestError(errorMsg));
+        return;
+	}
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_648117_chatgpt/chatgpt_prompts/prompt/{id}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/prompt/{id}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-13 17:08:59</sys_created_on>
+        <sys_id>2946dd81478c7110acf69a21336d43ca</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Get Prompt</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_ws_operation_2946dd81478c7110acf69a21336d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-13 17:29:09</sys_updated_on>
+        <web_service_definition display_value="ChatGPT Prompts">ad261d81478c7110acf69a21336d4346</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
