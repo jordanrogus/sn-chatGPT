@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="ccdc3db387e625101fd74336cebb3583" label="ChatGPT Prompt" max_length="40" name="x_648117_chatgpt_base" text_index="true" type="collection">
+        <element label="Audio for Prompt" max_length="40" name="audio_prompt" type="audio"/>
+        <element label="Audio for Persona" max_length="40" name="audio_system_user" type="audio"/>
         <element label="Completion Tokens" max_length="40" name="completion_tokens" read_only="true" type="integer"/>
         <element attributes="readonly_clickthrough=true" label="Conversation" max_length="32" name="conversation" read_only="true" reference="x_648117_chatgpt_chatgpt_conversation" type="reference"/>
         <element default="0" hint="Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim" label="Frequency Penalty" mandatory="true" max_length="40" name="frequency_penalty" type="float"/>
@@ -15,7 +17,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element default="0" hint="Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics" label="Presence Penalty" mandatory="true" max_length="40" name="presence_penalty" type="float"/>
-        <element label="Prompt" mandatory="true" max_length="4000" name="prompt" type="string"/>
+        <element label="Prompt" max_length="4000" name="prompt" type="string"/>
         <element label="Prompt Tokens" max_length="40" name="prompt_tokens" read_only="true" type="integer"/>
         <element label="Response" max_length="20000" name="response" read_only="true" type="string"/>
         <element choice="1" default="draft" label="State" mandatory="true" max_length="40" name="state" read_only="true" type="choice">

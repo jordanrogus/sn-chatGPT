@@ -4,13 +4,13 @@
             <element>system_user</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-12 18:49:32</sys_created_on>
-            <sys_id>951b120947322110acf69a21336d43d5</sys_id>
+            <sys_created_on>2023-07-14 16:39:14</sys_created_on>
+            <sys_id>7669561947803110acf69a21336d4337</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Chat" display_value="Chat" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">f6f4357c47362110acf69a21336d437e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-12 18:49:32</sys_updated_on>
+            <sys_updated_on>2023-07-14 16:39:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,83 @@
             <element>prompt</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-12 18:49:32</sys_created_on>
-            <sys_id>5d1b120947322110acf69a21336d43d5</sys_id>
+            <sys_created_on>2023-07-14 16:39:14</sys_created_on>
+            <sys_id>f669561947803110acf69a21336d4337</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Chat" display_value="Chat" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">f6f4357c47362110acf69a21336d437e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-12 18:49:32</sys_updated_on>
+            <sys_updated_on>2023-07-14 16:39:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>response</element>
+            <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-12 18:49:32</sys_created_on>
-            <sys_id>dd1b120947322110acf69a21336d43d5</sys_id>
+            <sys_created_on>2023-07-14 16:39:14</sys_created_on>
+            <sys_id>7a69561947803110acf69a21336d4337</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Chat" display_value="Chat" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">f6f4357c47362110acf69a21336d437e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-12 18:49:32</sys_updated_on>
+            <sys_updated_on>2023-07-14 16:39:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>audio_system_user</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-14 16:39:14</sys_created_on>
+            <sys_id>fa69561947803110acf69a21336d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chat" display_value="Chat" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">f6f4357c47362110acf69a21336d437e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-14 16:39:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>audio_prompt</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-14 16:39:14</sys_created_on>
+            <sys_id>7e69561947803110acf69a21336d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chat" display_value="Chat" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">f6f4357c47362110acf69a21336d437e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-14 16:39:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-14 16:39:14</sys_created_on>
+            <sys_id>fe69561947803110acf69a21336d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chat" display_value="Chat" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">f6f4357c47362110acf69a21336d437e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-14 16:39:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>response</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-14 16:39:14</sys_created_on>
+            <sys_id>7269561947803110acf69a21336d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chat" display_value="Chat" name="x_648117_chatgpt_base" sys_domain="global" view="Default view">f6f4357c47362110acf69a21336d437e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-14 16:39:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
