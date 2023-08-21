@@ -9,11 +9,11 @@ Features:
 Submit a prompt and receive a response from ChatGPT independently or in the context of a conversation.
 
 Pre-Reqs:
-0. The 'Flow Designer Action Step - Payload Builder' plugin is installed in the target instance. It is used in the flows.
-1. Create an API Key credential record (api_key_credentials) with an API key from OpenAPI related to a paid account.
+1. The 'Flow Designer Action Step - Payload Builder' plugin is installed in the target instance. It is used in the flows.
+2. Create an API Key credential record (api_key_credentials) with an API key from OpenAPI related to a paid account.
 *If not done the API will fail
-2. Create a connection record (http_connection) to reference the API Key credential record and the exisiting Connection Alias record (sys_id = a6a1ca7b87e625101fd74336cebb3514). The Connection URL should be set to: https://api.openai.com/v1/
-3. Update system properties (ChatGPT > ChatGPT App Properties)
+3. Create a connection record (http_connection) to reference the API Key credential record and the exisiting Connection Alias record (sys_id = a6a1ca7b87e625101fd74336cebb3514). The Connection URL should be set to: https://api.openai.com/v1/
+4. Update system properties (ChatGPT > ChatGPT App Properties)
 
 Validation:
 1. Go to ChatGPT > Prompts > Create Prompt
