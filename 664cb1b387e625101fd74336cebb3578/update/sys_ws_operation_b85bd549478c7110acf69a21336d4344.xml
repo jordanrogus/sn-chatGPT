@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
     <sys_ws_operation action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <consumes>application/json,application/xml,text/xml</consumes>
         <consumes_customized>false</consumes_customized>
         <default_operation_uri/>
         <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
         <http_method>POST</http_method>
         <name>Submit Prompt</name>
-        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+        <operation_script><![CDATA[/* Example object
+ * 
+ * {"prompt":"Hello"}
+ */
+
+(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
 
 	var requestBody = request.body;
 	var requestData = requestBody.data; //May be an array or a single object
@@ -48,14 +53,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 17:29:27</sys_created_on>
         <sys_id>b85bd549478c7110acf69a21336d4344</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Submit Prompt</sys_name>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_ws_operation_b85bd549478c7110acf69a21336d4344</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 17:37:00</sys_updated_on>
+        <sys_updated_on>2023-09-01 17:27:45</sys_updated_on>
         <web_service_definition display_value="ChatGPT Prompts">ad261d81478c7110acf69a21336d4346</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
     <sys_properties_category_m2m action="INSERT_OR_UPDATE">
         <category display_value="ChatGPT Application Properties">4a724b4887be65101fd74336cebb350e</category>
-        <order>5100</order>
+        <order>400</order>
         <property display_value="x_648117_chatgpt.fallout_incident_group" name="x_648117_chatgpt.fallout_incident_group">b39e70b447322110acf69a21336d43cb</property>
         <sys_class_name>sys_properties_category_m2m</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-11 17:27:15</sys_created_on>
         <sys_id>0aaef4f447322110acf69a21336d4347</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>x_648117_chatgpt.fallout_incident_group.ChatGPT Application Properties</sys_name>
         <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
         <sys_update_name>sys_properties_category_m2m_0aaef4f447322110acf69a21336d4347</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-12 18:54:57</sys_updated_on>
+        <sys_updated_on>2023-08-21 17:40:12</sys_updated_on>
     </sys_properties_category_m2m>
 </record_update>

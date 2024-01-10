@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_design_access">
+    <sys_scope_design_access action="DELETE">
+        <source_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</source_scope>
+        <sys_class_name>sys_scope_design_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-21 19:11:36</sys_created_on>
+        <sys_id>b868a62197f47110f15c3d400153af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f4232ae597b47110f15c3d400153af96</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_update_name>sys_scope_design_access_b868a62197f47110f15c3d400153af98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-21 19:11:36</sys_updated_on>
+        <target_package display_value="Flow Designer Action Step - Payload Builder" source="com.glide.hub.action_step.payload">f4232ae597b47110f15c3d400153af96</target_package>
+    </sys_scope_design_access>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</application>
+        <file_path/>
+        <instance_id>0011340bdb86f7c891232f17d4961925</instance_id>
+        <instance_name>dev88101</instance_name>
+        <name>sys_scope_design_access_b868a62197f47110f15c3d400153af98</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_design_access"><sys_scope_design_access action="INSERT_OR_UPDATE"><source_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</source_scope><sys_class_name>sys_scope_design_access</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-21 19:11:36</sys_created_on><sys_id>b868a62197f47110f15c3d400153af98</sys_id><sys_mod_count>0</sys_mod_count><sys_name>f4232ae597b47110f15c3d400153af96</sys_name><sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package><sys_policy/><sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope><sys_update_name>sys_scope_design_access_b868a62197f47110f15c3d400153af98</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-21 19:11:36</sys_updated_on><target_package display_value="Flow Designer Action Step - Payload Builder" source="com.glide.hub.action_step.payload">f4232ae597b47110f15c3d400153af96</target_package></sys_scope_design_access></record_update>]]></payload>
+        <payload_hash>1398405368</payload_hash>
+        <record_name>f4232ae597b47110f15c3d400153af96</record_name>
+        <reverted_from/>
+        <source>77135a2197b83110f15c3d400153af09</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-21 19:11:36</sys_created_on>
+        <sys_id>ddb86e2197f47110f15c3d400153af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a19827d940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-21 19:11:36</sys_updated_on>
+        <type>Design Access</type>
+        <update_guid>15b86e2186f47110fdfc215d73fb9d5b</update_guid>
+        <update_guid_history>15b86e2186f47110fdfc215d73fb9d5b:1398405368</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-21 19:11:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_design_access">sys_scope_design_access</sys_db_object>
+        <sys_id>34952c4cafce4d3c8bc5f1d6ba2d57e4</sys_id>
+        <sys_metadata>b868a62197f47110f15c3d400153af98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f4232ae597b47110f15c3d400153af96</sys_name>
+        <sys_package display_value="ChatGPT" source="x_648117_chatgpt">664cb1b387e625101fd74336cebb3578</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChatGPT">664cb1b387e625101fd74336cebb3578</sys_scope>
+        <sys_scope_delete display_value="">512f50ce6a264d7ca17bae15c73e08a4</sys_scope_delete>
+        <sys_update_name>sys_scope_design_access_b868a62197f47110f15c3d400153af98</sys_update_name>
+        <sys_update_version display_value="sys_scope_design_access_b868a62197f47110f15c3d400153af98">ddb86e2197f47110f15c3d400153af5b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-21 19:11:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
